@@ -1,0 +1,152 @@
+motions:
+- file: ACCAD-smpl/Male2Walking_c3d/B10____Walk_turn_left_45_stageii.npy
+  fps: 120
+  idx: 0
+  sub_motions:
+  - idx: 0
+    labels:
+    - a man walks forward for 5 steps.  he then turns 45 degrees to his left and continues
+      walking
+    - a person briskly walks forward before turning left and continuing on
+    - a person walks forward, turns to the left, and continues walking
+    timings:
+      end: 5.0
+      start: 2.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B9____Walk_turn_left_90_stageii.npy
+  fps: 120
+  idx: 1
+  sub_motions:
+  - idx: 1
+    labels:
+    - a person walks straight then turn to its left then walks straight again
+    - without stopping, a person walks a few steps forward then makes a sharp left
+      turn and continues walking a few more steps
+    timings:
+      end: 4.05
+      start: 2.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B11____Walk_turn_left_135_stageii.npy
+  fps: 120
+  idx: 2
+  sub_motions:
+  - idx: 2
+    labels:
+    - a person walks forward, turns to his left and walks
+    - the person is walking forward and turned left
+    - a person slowly walked forward and returned in left direction
+    timings:
+      end: 4.5
+      start: 1.5
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B14____Walk_turn_right_45_t2_stageii.npy
+  fps: 120
+  idx: 3
+  sub_motions:
+  - idx: 3
+    labels:
+    - a person walks straight then walks in a diagonal line to the right
+    - a person walks to his right and stops
+    - a person walks forward and then turns to walk in a curve to the right
+    timings:
+      end: 4.8
+      start: 2.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B13____Walk_turn_right_90_stageii.npy
+  fps: 120
+  idx: 4
+  sub_motions:
+  - idx: 4
+    labels:
+    - a person walks to his left
+    - a person waves hand in front of his face swiftly from side to side then walks
+      off
+    - a standing person waves their left arm and then begins walking towards their
+      left
+    timings:
+      end: 4.7
+      start: 2.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B22____side_step_left_stageii.npy
+  fps: 120
+  idx: 5
+  sub_motions:
+  - idx: 5
+    labels:
+    - a person side steps to their left
+    - the person is standing facing forward taking  a step to the left
+    - a person takes one big step to the left
+    timings:
+      end: 2.5
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B23____side_step_right_stageii.npy
+  fps: 120
+  idx: 6
+  sub_motions:
+  - idx: 6
+    labels:
+    - the person is side stepping
+    - a person takes a step to the side to move out of the way for something
+    - a person side steps to the right
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E3____cross_left_stageii.npy
+  fps: 120
+  idx: 7
+  sub_motions:
+  - hml3d_id: 2409
+    idx: 7
+    labels:
+    - a person throwing a left hook
+    - hard left punch jap forward
+    - a person strikes with his left arm
+    timings:
+      end: 2.4 # 3.3
+      start: 0.3 #0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E4____cross_right_stageii.npy
+  fps: 120
+  idx: 8
+  sub_motions:
+  - hml3d_id: 6996
+    idx: 8
+    labels:
+    - a person holds up both hands and slightly waivers before boxing
+    - a person punches something on their left-hand side, while keeping their other
+      arm raised defensively
+    - a person turns to the right and punches with their right arm
+    timings:
+      end: 2.05 #2.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E7___uppercut_left_stageii.npy
+  fps: 120
+  idx: 9
+  sub_motions:
+  - hml3d_id: 4241
+    idx: 9
+    labels:
+    - a person throws an uppercut from the left arm
+    - a person doing a left uppercut
+    - a person performing a left handed uppercut
+    timings:
+      end: 2.3 # 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E8___uppercut_right_stageii.npy
+  fps: 120
+  idx: 10
+  sub_motions:
+  - hml3d_id: 2606
+    idx: 10
+    labels:
+    - a man is shadowboxing while standing still
+    - a person throwing a punch with left hand
+    - person takes one step and uses the right arm to do an uppercut boxing punch
+    timings:
+      end: 2.1 #2.6
+      start: 0.0
+    weight: 1.0

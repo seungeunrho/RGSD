@@ -1,0 +1,116 @@
+# @package _global_
+
+defaults:
+  - /agent/rgsd/agent
+  - /env/goal_reaching
+
+  - /agent/ppo/models/mlp_actor
+  - /agent/ppo/models/mlp_critic
+  - /agent/rgsd/models/mlp_phi_encoder
+  - /agent/rgsd/models/mlp_actor_latent
+
+  - /robot/smpl
+
+env:
+  config:
+    enable_height_termination: True
+    # state_init: Default / Data / DataHybrid
+    state_init: Data
+    max_episode_length: 70
+    termination_height: 0.3  #0.15
+    head_termination_height: 0.3
+    humanoid_obs:
+      num_historical_steps: 5
+      attach_phase_variable: true
+
+    sync_motion: False
+    terminate_ref_deviation: true
+    hybrid_init_prob : 0.6 #0.4
+    deviate_threshold : 0.1
+
+    # Goal reaching params
+    goal_box_min: [-5.0, 2.0, 0.8]  # Min bounds for random goal sampling (x_forward, y_side, z_up)
+    goal_box_max: [5.0, 10.0, 0.8]   # Max bounds for random goal sampling
+    goal_success_radius: 1.0  # Tighter success radius
+    goal_reward_scale: 1.0     # Stronger reward signal
+
+
+robot:
+  control:
+    clamp_actions: 5.0
+
+
+agent:
+  config:  
+    num_steps: 8
+
+
+    batch_size: 4096
+    # batch_size: 512
+    # manual_save_every: 3
+    entropy_bonus_coef: 0.001
+    
+    ssd_parameters:
+      pretrain_phi: false 
+      latent_dim: 32
+      rgsd_on : true
+      phi_clip_thres : 3.0
+      disc_loss_coef: 0.1
+      diversity_bonus : 0.0 #0.01
+      sync_data_path : "punch_tensor_dict.pt"
+      latent_init_method: 
+        default_envs: "gaussian"  # gaussian / ref_data / ref_data_random / fixed
+        ref_envs: "gaussian"  
+        latent_fixed_idx: 1
+
+    contrastive_parameters:
+      max_motion_length: 80 #300
+      epochs: 1200 # 2000
+      loss_margin: 0.7
+      noise_scale: 0.05
+      attach_encoder_phase_var: true
+
+    hierarchical:
+      hl_hidden: 512
+      hl_period : 4
+
+motion_manager:
+  # fixed_motion_per_env: true
+  motion_sampling_method: fixed_motion_per_env  #random / round_robin
+  motion_sampling:
+      init_start_prob: 1.0 #1.
+
+
+eval_overrides:
+  env:
+    config:
+      max_episode_length: 68 #150
+      enable_height_termination: true
+      sync_motion: false
+      state_init: Data  # DataHybrid / Default / Data
+      terminate_ref_deviation: false
+      hybrid_init_prob : 0.0 #0.4
+      collect_sync_motion_data: false
+
+  agent:
+    config:
+      ssd_parameters:
+        initialize_latent_using_data: true
+        pretrain_phi: false
+        draw_latent_plot: false
+
+        latent_init_method: 
+          default_envs: "gaussian"  # gaussian / ref_data / ref_data_random / fixed / fixed_per_env
+          ref_envs: "gaussian"  
+          latent_fixed_idx: 5
+
+      contrastive_parameters:
+        attach_encoder_phase_var: true
+
+  motion_manager:
+    # fixed_motion_per_env: true
+    motion_sampling_method: round_robin  #random / round_robin
+    motion_sampling:
+      init_start_prob: 1.0 #1.
+
+

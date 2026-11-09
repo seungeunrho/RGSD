@@ -1,0 +1,80 @@
+motions:
+- file: ACCAD-smpl/Male2Running_c3d/C12___run_turn_left_45_stageii.npy
+  fps: 120
+  idx: 0
+  sub_motions:
+  - idx: 0
+    labels:
+    - a person runs forward, then quickly turns off to the left
+    - a person jogs forward and the cuts 45 degrees to their left
+    - a person is running and makes a slight left turn
+    timings:
+      end: 2.2
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C11___run_turn_left_90_stageii.npy
+  fps: 120
+  idx: 1
+  sub_motions:
+  - idx: 1
+    labels:
+    - run forward pivot run backward diagnally
+    - a person runs forward, stops and runs diagonally backwards
+    - person running was turning left
+    timings:
+      end: 2.5
+      start: 0.0
+    weight: 1.0
+
+- file: ACCAD-smpl/Male2Running_c3d/C13___run_turn_left_135_stageii.npy
+  fps: 120
+  idx: 2
+  sub_motions:
+  - idx: 2
+    labels:
+    - run forward pivot run backward diagnally
+    - a person runs forward, stops and runs diagonally backwards
+    - person running was turning left
+    timings:
+      end: 2.7
+      start: 0.2
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C15___run_turn_right_45_stageii.npy
+  fps: 120
+  idx: 3
+  sub_motions:
+  - idx: 3
+    labels:
+    - the person was running and turned right
+    - a person runs to his right
+    - a person runs forward, then turns and runs to the right
+    timings:
+      end: 2.8
+      start: 0.4
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C14___run_turn_right_90_stageii.npy
+  fps: 120
+  idx: 4
+  sub_motions:
+  - idx: 4
+    labels:
+    - the person was running and turned right
+    - a person runs to his right
+    - a person runs forward, then turns and runs to the right
+    timings:
+      end: 2.8
+      start: 0.4
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C16___run_turn_right_135_stageii.npy
+  fps: 120
+  idx: 5
+  sub_motions:
+  - idx: 5
+    labels:
+    - the person was running and turned right
+    - a person runs to his right
+    - a person runs forward, then turns and runs to the right
+    timings:
+      end: 2.8
+      start: 0.4
+    weight: 1.0

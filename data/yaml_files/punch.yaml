@@ -1,0 +1,91 @@
+motions:
+# - file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E1____Jab_left_stageii.npy
+#   fps: 120
+#   idx: 0
+#   sub_motions:
+#   - hml3d_id: 11879
+#     idx: 0
+#     labels:
+#     - a person does a short quick punching motion
+#     - a person stands feet slightly a part and knees bent, holds hands in front of
+#       his face and then punches quickly with his left
+#     - a person punches quickly with his left hand
+#     timings:
+#       end: 2.4 #3.35
+#       start: 0.6 # 0.0
+#     weight: 1.0
+
+# - file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E2____Jab_right_stageii.npy
+#   fps: 120
+#   idx: 1
+#   sub_motions:
+#   - hml3d_id: 6584
+#     idx: 1
+#     labels:
+#     - a person with their hands in front of their face, punches with their right hand
+#     - a person holds their arms in front of them, and makes a quick punch with their
+#       right arm
+#     - a man stands with his legs apart in a defensive posture with his arms bent in
+#       front of him, and he steps forward and jabs with his right hand before stepping
+#       back
+#     timings:
+#       end: 2.25
+#       start: 0.4 #0.0
+#     weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E3____cross_left_stageii.npy
+  fps: 120
+  idx: 0
+  sub_motions:
+  - hml3d_id: 2409
+    idx: 0
+    labels:
+    - a person throwing a left hook
+    - hard left punch jap forward
+    - a person strikes with his left arm
+    timings:
+      end: 3.3 # 3.3
+      start: 0.0 #0.3
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E4____cross_right_stageii.npy
+  fps: 120
+  idx: 1
+  sub_motions:
+  - hml3d_id: 6996
+    idx: 1
+    labels:
+    - a person holds up both hands and slightly waivers before boxing
+    - a person punches something on their left-hand side, while keeping their other
+      arm raised defensively
+    - a person turns to the right and punches with their right arm
+    timings:
+      end: 2.45 #2.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E7___uppercut_left_stageii.npy
+  fps: 120
+  idx: 2
+  sub_motions:
+  - hml3d_id: 4241
+    idx: 2
+    labels:
+    - a person throws an uppercut from the left arm
+    - a person doing a left uppercut
+    - a person performing a left handed uppercut
+    timings:
+      end: 2.6 # 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E8___uppercut_right_stageii.npy
+  fps: 120
+  idx: 3
+  sub_motions:
+  - hml3d_id: 2606
+    idx: 3
+    labels:
+    - a man is shadowboxing while standing still
+    - a person throwing a punch with left hand
+    - person takes one step and uses the right arm to do an uppercut boxing punch
+    timings:
+      end: 2.6 #2.6
+      start: 0.0
+    weight: 1.0

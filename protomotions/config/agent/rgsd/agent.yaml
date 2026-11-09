@@ -1,0 +1,56 @@
+# @package _global_
+
+defaults:
+  - /agent/ppo/agent
+
+agent:
+  _target_: protomotions.agents.rgsd.rgsd_diayn_agent.RGSD_DIAYN
+  _recursive_: False
+  config:
+    # Setup discriminator structure
+    vmf_kappa : 20.0
+    model:
+      _target_: protomotions.agents.rgsd.base_model.SSDModel  # Override main model
+    ssd_parameters:
+      latent_dim: 16
+      initialize_latent_using_data: true
+      latent_init_method: 
+        default_envs: "gaussian"  # gaussian / ref_data / ref_data_random / fixed
+        ref_envs: "ref_data"  
+        latent_fixed_idx: 1
+
+      pretrain_phi: true
+      disc_loss_coef: 0.1
+      lambda_loss_coef: 0.2
+
+      latent_steps_min: 1000000000
+      latent_steps_max: 1500000000
+      draw_latent_plot: False
+
+      rgsd_on: true
+      diversity_bonus : 0.0
+      sync_data_path : "punch_tensor_dict.pt"
+
+
+
+      
+
+    contrastive_parameters:
+      coeff: 0.0
+      batch_size: 256
+      max_motion_length: 300
+      noise_scale: 0.0
+      epochs: 3000 # 2000
+      draw_interval: 500
+      loss_margin: 0.5
+      attach_encoder_phase_var: true
+      
+
+# eval_overrides:
+#   agent:
+#     config:
+#       ssd_parameters:
+#         initialize_latent_using_data: true
+#         pretrain_phi: true
+
+      

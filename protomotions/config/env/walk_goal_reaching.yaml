@@ -1,0 +1,76 @@
+# @package _global_
+
+defaults:
+  - /terrain/flat
+  - /motion_manager/base_manager
+
+# Env structure
+env:
+  _target_: protomotions.envs.goal_reaching.walk_env.WalkGoalReachingEnv
+  _recursive_: False
+  config:
+    experiment_name: ${experiment_name}
+    num_envs: ${num_envs}
+    headless: ${headless}
+
+    simulator: ${simulator}
+
+    max_episode_length: 40
+    robot: ${robot}
+
+    ## Observations
+    humanoid_obs:
+      use_max_coords_obs: True
+      obs_size: ${robot.self_obs_size}
+      local_root_obs: True
+      root_height_obs: True
+      num_historical_steps: 5
+      attach_phase_variable: True
+
+    ## Termination
+    termination_height: 0.1
+    head_termination_height: 0.2
+    shield_termination_height: 0.32
+    enable_height_termination: true
+    terminate_ref_deviation: False
+
+    ## Motion-related params
+    motion_lib: ${motion_lib}
+    motion_manager: ${motion_manager}
+
+    ### Respawn related params
+    hybrid_init_prob: 0.0
+    state_init: Default
+    ref_respawn_offset: ${ref_respawn_offset}
+
+    terrain: ${terrain}
+
+    # Evaluation params
+    sync_motion: False
+    collect_sync_motion_data: false
+    deviate_threshold : 0.1
+    return_body_pos: false
+    spawn_alltogether: false
+    eval_metric_keys: []
+    terminate_ref_timeover: False
+
+    # Goal reaching params
+    goal_box_min: [-10.0, -10.0, 0.8]  # Min bounds for random goal sampling (x_forward, y_side, z_up)
+    goal_box_max: [10, 10.0, 0.8]   # Max bounds for random goal sampling
+    enable_goal_success_termination: true
+    goal_success_radius: 1.0  # Tighter success radius
+    goal_reward_scale: 1.0     # Stronger reward signal
+    phase_reset_interval: 5.0
+
+
+# Globally accessible parameters
+ref_respawn_offset: 0.0
+
+eval_overrides:
+  env:
+    config:
+      max_episode_length: 150
+      enable_height_termination: False
+      return_body_pos: true
+
+

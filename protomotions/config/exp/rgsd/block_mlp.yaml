@@ -1,0 +1,99 @@
+# @package _global_
+
+defaults:
+  - /agent/rgsd/agent
+  - /env/ssd_env
+
+  - /agent/ppo/models/mlp_actor
+  - /agent/ppo/models/mlp_critic
+  - /agent/rgsd/models/mlp_phi_encoder
+  - /agent/rgsd/models/mlp_actor_latent
+
+  - /robot/smpl
+
+env:
+  config:
+    enable_height_termination: True
+    # state_init: Default / Data / DataHybrid
+    state_init: DataHybrid
+    max_episode_length: 85
+    termination_height: 0.3  #0.15
+    head_termination_height: 0.3
+    humanoid_obs:
+      num_historical_steps: 5
+      attach_phase_variable: true
+
+    sync_motion: False
+    terminate_ref_deviation: true
+    hybrid_init_prob : 0.5 #0.4
+    deviate_threshold : 0.1
+
+robot:
+  control:
+    clamp_actions: 5.0
+
+agent:
+  config:
+    # batch_size: 512
+    # manual_save_every: 3
+    entropy_bonus_coef: 0.05
+    
+    ssd_parameters:
+      pretrain_phi: true 
+      latent_dim: 32
+      rgsd_on : true
+      phi_clip_thres : 3.0
+      disc_loss_coef: 0.1
+      diversity_bonus : 0.0 #0.01
+      sync_data_path : "punch_tensor_dict.pt"
+      latent_init_method: 
+        default_envs: "gaussian"  # gaussian / ref_data / ref_data_random / fixed
+        ref_envs: "ref_data"  
+        latent_fixed_idx: 1
+
+    contrastive_parameters:
+      max_motion_length: 90 #300
+      epochs: 1200 # 2000
+      loss_margin: 0.7
+      noise_scale: 0.05
+      attach_encoder_phase_var: true
+
+motion_manager:
+  # fixed_motion_per_env: true
+  motion_sampling_method: fixed_motion_per_env  #random / round_robin
+
+
+
+eval_overrides:
+  env:
+    config:
+      max_episode_length: 85 #150
+      enable_height_termination: true
+      sync_motion: false
+      state_init: Data  # DataHybrid / Default / Data
+      terminate_ref_deviation: false
+      hybrid_init_prob : 0.0 #0.4
+      collect_sync_motion_data: false
+
+  agent:
+    config:
+      ssd_parameters:
+        initialize_latent_using_data: true
+        pretrain_phi: false
+        draw_latent_plot: false
+
+        latent_init_method: 
+          default_envs: "gaussian"  # gaussian / ref_data / ref_data_random / fixed / fixed_per_env
+          ref_envs: "ref_data"  
+          latent_fixed_idx: 5
+
+      contrastive_parameters:
+        attach_encoder_phase_var: true
+
+  motion_manager:
+    # fixed_motion_per_env: true
+    motion_sampling_method: random  #random / round_robin
+    motion_sampling:
+      init_start_prob: 1.0 #1.
+
+

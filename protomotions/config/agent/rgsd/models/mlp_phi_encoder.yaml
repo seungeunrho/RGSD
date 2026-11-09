@@ -1,0 +1,46 @@
+# @package _global_
+
+agent:
+  config:
+    # Setup discriminator structure
+    model:
+      config:
+        ssd_phi_encoder:
+          _target_: protomotions.agents.rgsd.base_model.SSDPhiEncoder
+          _recursive_: False
+          num_in: ${eval:${robot.self_obs_size}*${env.config.humanoid_obs.num_historical_steps}}
+          config:
+            vmf_kappa: ${agent.config.vmf_kappa}
+            trunk:
+              num_out: 512
+              obs_key: historical_self_obs
+              normalize_obs: False
+              norm_clamp_value: 5
+              output_activation: relu
+              layers:
+                - units: 1024
+                  activation: relu
+                  use_layer_norm: false
+                - units: 1024
+                  activation: relu
+                  use_layer_norm: false
+                - units: 1024
+                  activation: relu
+                  use_layer_norm: false
+            encoder:
+              _target_: protomotions.agents.rgsd.model.NormalizedLinearEncoder
+              # num_in : ${robot.self_obs_size}  #358 + 1(phase variable)
+              # local_body_pos : 69 +1,  local_body_rot : 144 +1
+              # num_in : 70
+              num_out: ${agent.config.ssd_parameters.latent_dim}
+
+        discriminator_optimizer:
+          _target_: torch.optim.Adam
+          lr: 1e-4
+
+        lamda_optimizer:
+          _target_: torch.optim.Adam
+          lr: 1e-4
+
+    extra_inputs:
+      historical_self_obs: true  # we create as a dict to ensure hydra combines with other extra_inputs

@@ -1,0 +1,20 @@
+*/babel/*.json
+.idea
+*__pycache__*
+*.egg-info
+outputs/*
+rendered_images/*
+*tmp*
+results/*
+.DS_Store
+**/.DS_Store
+plots/*
+output/
+logs/
+test_job.sh
+data/
+.vscode/
+# *.yaml
+wandb/
+traj_plots/
+protomotions/outputs/

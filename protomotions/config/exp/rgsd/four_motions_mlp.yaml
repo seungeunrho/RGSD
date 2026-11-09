@@ -1,0 +1,93 @@
+# @package _global_
+
+defaults:
+  - /agent/rgsd/agent
+  - /env/ssd_env
+
+  - /agent/ppo/models/mlp_actor
+  - /agent/ppo/models/mlp_critic
+  - /agent/rgsd/models/mlp_phi_encoder
+  - /agent/rgsd/models/mlp_actor_latent
+
+  - /robot/smpl
+
+env:
+  config:
+    state_init: DataHybrid # Default / Data / DataHybrid
+    max_episode_length: 150
+
+    enable_height_termination: true
+    terminate_ref_deviation: true
+    terminate_ref_timeover: true
+    hybrid_init_prob : 0.8 #0.4
+    deviate_threshold : 0.12
+    deviate_threshold_max : 
+      Default : 0.3
+      Crawl : 0.35
+
+    spawn_alltogether: false
+
+
+agent:
+  config:
+    entropy_bonus_coef: 0.1
+    
+    ssd_parameters:
+      pretrain_phi: true 
+      latent_dim: 16
+      disc_loss_coef: 0.1
+
+    contrastive_parameters:
+      coeff: 0.0
+
+eval_overrides:
+  agent:
+    config:
+      vmf_kappa: 50.0
+
+      ssd_parameters:
+        pretrain_phi: false
+        draw_latent_plot: false
+
+        latent_init_method: 
+          default_envs: "gaussian"  # gaussian / ref_data / ref_data_vmf / fixed / fixed_per_env
+          ref_envs: "ref_data_vmf"  
+          latent_fixed_idx: 4
+
+      contrastive_parameters:
+        attach_encoder_phase_var: true
+
+      # eval_metric_keys: ["state_coverage", "cartesian_err", "plot"]   # cartesian_err / state_coverage
+      eval_metric_keys: ["cartesian_err"]   # cartesian_err / state_coverage
+
+  env:
+    config:
+      max_episode_length: 300 #150
+      enable_height_termination: true
+      sync_motion: false
+      state_init: Data  # DataHybrid / Default / Data
+      terminate_ref_deviation: false
+      terminate_ref_timeover: true
+
+      hybrid_init_prob : 0.0 #0.4
+      collect_sync_motion_data: false
+      humanoid_obs:
+        num_historical_steps: 5
+        attach_phase_variable: true
+      deviate_threshold : 0.3
+      deviate_threshold_max : 
+        Default : 0.3 #0.3
+        Crawl : 0.38
+
+      eval_metric_keys: ${eval_overrides.agent.config.eval_metric_keys}
+      spawn_alltogether: true
+        
+      
+
+  motion_manager:
+    motion_sampling_method: round_robin  #random / round_robin / fixed
+    fixed_motion_id : 0
+    motion_sampling:
+      init_start_prob: 1.0 #1.
+
+

@@ -1,0 +1,3293 @@
+motions:
+- file: ACCAD-smpl/Female1Running_c3d/C19____run_to_hop_to_walk_stageii.npy
+  fps: 120
+  idx: 0
+  sub_motions:
+  - hml3d_id: 34
+    idx: 0
+    labels:
+    - a person runs and jumps forward
+    - a running man hops over something a comes down to a walk
+    - a person runs diagonally across a floor, skips, and continues running before
+      he comes to a stop
+    timings:
+      end: 4.25
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A3___Swing_t2_stageii.npy
+  fps: 120
+  idx: 1
+  sub_motions:
+  - hml3d_id: 84
+    idx: 1
+    labels:
+    - a person shrugs their shoulders and swings their arms
+    - someone is swinging their arms around their body back and fourth and then stops
+    - a person raises both arms in front of himself, then drops them into a casual
+      swing
+    timings:
+      end: 8.15
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E12___backfist_right_stageii.npy
+  fps: 120
+  idx: 2
+  sub_motions:
+  - hml3d_id: 168
+    idx: 2
+    labels:
+    - person throws a right jab and then moves back
+    - the person hops forward, lashes out with the back of their right hand, and steps
+      back
+    - a persons throws a backfist with his right hand
+    timings:
+      end: 2.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D15___switch_stance_stageii.npy
+  fps: 120
+  idx: 3
+  sub_motions:
+  - hml3d_id: 281
+    idx: 3
+    labels:
+    - a person turns in a clock-wise direction while standing in the same spot with
+      arms open in front of them
+    - person switches their stance
+    - a person puts their arms up in a defensive stance
+    timings:
+      end: 3.05
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C24___quick_sidestep_left_stageii.npy
+  fps: 120
+  idx: 4
+  sub_motions:
+  - hml3d_id: 353
+    idx: 4
+    labels:
+    - the person quickly moves his left leg to the left and brings his right leg quickly
+      to the left also
+    - a person takes a quick side step to its left
+    - person takes a large step to the left fast
+    timings:
+      end: 2.05
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B9____Walk_turn_left_90_stageii.npy
+  fps: 120
+  idx: 5
+  sub_motions:
+  - hml3d_id: 365
+    idx: 5
+    labels:
+    - a person walks straight then turn to its left then walks straight again
+    - without stopping, a person walks a few steps forward then makes a sharp left
+      turn and continues walking a few more steps
+    timings:
+      end: 5.05
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A12__Crawl_Backwards_stageii.npy
+  fps: 120
+  idx: 6
+  sub_motions:
+  - hml3d_id: 416
+    idx: 6
+    labels:
+    - a person crawls backwards on the floor from side to side
+    - the boy got onto his hands and knees and moved backwards
+    - a person crawls backwards on the ground
+    timings:
+      end: 11.35
+      start: 1.35
+    weight: 1.0
+  - hml3d_id: 1852
+    idx: 7
+    labels:
+    - a person starts lying on their front side, and quickly crawls backwards using
+      both hands and legs
+    - a person crawls backwards diagonally, on their elbows and knees
+    - a person is crawling backwards
+    timings:
+      end: 17.05
+      start: 9.55
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G20____reverse_spin_cresent_right_stageii.npy
+  fps: 120
+  idx: 8
+  sub_motions:
+  - hml3d_id: 427
+    idx: 8
+    labels:
+    - the person is in a fighting pose with both hands ready to strike, then does
+      a 360 degrees, clockwise kick with their right foot
+    - a man throws a spinning heel kick with his right leg
+    - a person does a karate kick
+    timings:
+      end: 2.85
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Gestures_c3d/D3___Conversation_Gestures_stageii.npy
+  fps: 120
+  idx: 9
+  sub_motions:
+  - hml3d_id: 441
+    idx: 9
+    labels:
+    - a person shrugs shoulders while leaving both arms flaccid and then shrugs shoulders
+      while bending elbows and making hand gesture
+    - a man shrugs his shoulders once, then shrugs again with his hands raised slightly,
+      then shakes his head from side to side
+    - a person shrugs their shoulders, then shrugs them more deeply and shakes their
+      head
+    timings:
+      end: 10.35
+      start: 0.35
+    weight: 1.0
+  - hml3d_id: 1254
+    idx: 10
+    labels:
+    - man has both hands on his hips, flares elbows outward and looks left. he drops
+      both hands down at his sides and he waves hi several times with his right hand.
+      he brings his right hand up to his mouth as if sneezing or coughing
+    - a person poses holding his waist with both hands, waved with his right hand,
+      then poses like trying to arm-wrestle someone with its right hand
+    - a person has his hands on his hips and waves his hand around
+    timings:
+      end: 27.35
+      start: 17.35
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B14___walk_turn_right__135__stageii.npy
+  fps: 120
+  idx: 11
+  sub_motions:
+  - hml3d_id: 463
+    idx: 11
+    labels:
+    - a person walks leisurely forward and then pivots to their right in a u-shape
+      and then walking straight
+    - a person walked forward, then turned right, then walked back diagonally
+    timings:
+      end: 9.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/male2_Subject_Cal_2_stageii.npy
+  fps: 120
+  idx: 12
+  sub_motions:
+  - hml3d_id: 590
+    idx: 12
+    labels:
+    - a person stands in a t pose with no movement at all
+    - a person stands with his arms on his side
+    - a man has hand hands both up and at shoulder length
+    timings:
+      end: 2.2
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A4___Look_Around_stageii.npy
+  fps: 120
+  idx: 13
+  sub_motions:
+  - hml3d_id: 686
+    idx: 13
+    labels:
+    - a person appears to be looking around
+    - a person looks left and right
+    - a person standing still and looking forward, looks left, looks right, and then
+      returns to looking forward
+    timings:
+      end: 15.95
+      start: 8.6
+    weight: 1.0
+  - hml3d_id: 2008
+    idx: 14
+    labels:
+    - a person stands looking left and right
+    - she scans the sky, first left, then right, then straight up, and finally to
+      the left again
+    - a person stands straight turning his face from side to side
+    timings:
+      end: 10.6
+      start: 0.6
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A9____Lie_Down_stageii.npy
+  fps: 120
+  idx: 15
+  sub_motions:
+  - hml3d_id: 698
+    idx: 15
+    labels:
+    - the man puts his right knee out and back in, then puts his left knee out and
+      back in
+    - a man is lying down and slightly shifts position
+    - man is lying down, sometimes moving his legs round and forth
+    timings:
+      end: 10.05
+      start: 0.05
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A1___Stand_stageii.npy
+  fps: 120
+  idx: 16
+  sub_motions:
+  - hml3d_id: 928
+    idx: 16
+    labels:
+    - he stays still then moves
+    - a man/woman taking a step leading with his/her right foot
+    - a figure takes a step forward with their right foot
+    timings:
+      end: 6.25
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A10__Lie_to_crouch_stageii.npy
+  fps: 120
+  idx: 17
+  sub_motions:
+  - hml3d_id: 1096
+    idx: 17
+    labels:
+    - a man starts to stand up from laying down
+    - a person begins to stand up from laying on their stomach
+    - a man lay face down in plank position, gets up with right knee on ground, and
+      left foot planted on the ground which is bent from the knee
+    timings:
+      end: 4.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G10___roundhouse_leading_left_stageii.npy
+  fps: 120
+  idx: 18
+  sub_motions:
+  - hml3d_id: 1111
+    idx: 18
+    labels:
+    - a man does a kick to the side
+    - a person takes a quick step to their left side and sharply kicks to the side
+      with a knee snap in a marial arts move
+    - a person kicks with their left leg
+    timings:
+      end: 2.65
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C12___run_turn_left_45_stageii.npy
+  fps: 120
+  idx: 19
+  sub_motions:
+  - hml3d_id: 1183
+    idx: 19
+    labels:
+    - a person runs forward, then quickly turns off to the left
+    - a person jogs forward and the cuts 45 degrees to their left
+    - a person is running and makes a slight left turn
+    timings:
+      end: 2.2
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G11___roundhouse_leading_right_stageii.npy
+  fps: 120
+  idx: 20
+  sub_motions:
+  - hml3d_id: 1271
+    idx: 20
+    labels:
+    - a person in a fighting stance does a roundhouse kick with their right leg
+    - kicks up left leg in the air like a ninja
+    - a person in a fighting stance kicks out with his right foot
+    timings:
+      end: 3.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B21___Put_Down_Box_to_walk_stageii.npy
+  fps: 120
+  idx: 21
+  sub_motions:
+  - hml3d_id: 1289
+    idx: 21
+    labels:
+    - the person is picking up and moving something
+    - a person puts down a large object, then walks forwards
+    - person puts something on ground then takes 8 steps forward
+    timings:
+      end: 7.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E13___body_cross_left_stageii.npy
+  fps: 120
+  idx: 22
+  sub_motions:
+  - hml3d_id: 1323
+    idx: 22
+    labels:
+    - a person bobs back and forth while raising their arms in front of their chest
+    - a figure raises it hands in preparation for fistycuffs
+    - a man. stands up jump then does a push up. then runs in 4 circles. and then
+      repeats 4 time
+    timings:
+      end: 1.95
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E6___quick_retreat_stageii.npy
+  fps: 120
+  idx: 23
+  sub_motions:
+  - hml3d_id: 1516
+    idx: 23
+    labels:
+    - person looks like they are jousting with another person
+    - a person slightly squats, puts their arms up in defense, and hops backwards
+      maintaining the defensive pose
+    - a person starts in a neutral standing position then puts his arms out in a fighting
+      position and backs up quickly
+    timings:
+      end: 5.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E15___body_jab_right_stageii.npy
+  fps: 120
+  idx: 24
+  sub_motions:
+  - hml3d_id: 1578
+    idx: 24
+    labels:
+    - a person makes a right handed hit
+    - a person leads with their right foot and jabs with their right hand and returns
+      back to original position
+    - a person takes a step forward with their right foot and reaches their right
+      hand forward and back quickly
+    timings:
+      end: 1.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C7____run_backwards_stageii.npy
+  fps: 120
+  idx: 25
+  sub_motions:
+  - hml3d_id: 1605
+    idx: 25
+    labels:
+    - a person runs backwards for a consistent timeframe, moving his arms in a consistent
+      motion as well
+    - a man runs backwards while occasionally looking back
+    - a person jogs backwards at a slow pace
+    timings:
+      end: 3.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A7___crouch_stageii.npy
+  fps: 120
+  idx: 26
+  sub_motions:
+  - hml3d_id: 1625
+    idx: 26
+    labels:
+    - a man crouches down on the ground
+    - a person crouches and has contact to the ground with both of their hands and
+      feet only
+    - the figure squats down and places both hands on the ground
+    timings:
+      end: 5.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C6___stand_to_run_backwards_stageii.npy
+  fps: 120
+  idx: 27
+  sub_motions:
+  - hml3d_id: 1751
+    idx: 27
+    labels:
+    - a person runs backwards in a diagonal pattern
+    - a person runs backgrouns diagonally
+    - a person skips backwards on a diagonal path to the left
+    timings:
+      end: 5.85
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B4___Stand_to_Walk_Back_stageii.npy
+  fps: 120
+  idx: 28
+  sub_motions:
+  - hml3d_id: 1754
+    idx: 28
+    labels:
+    - a standing person slowly walks backwards then stops
+    - a person starts walking with his right foot backwards
+    - a person walks backwards from side to side starting with their right foot
+    timings:
+      end: 10.9
+      start: 0.9
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B21_s2___put_down_box_to_walk_stageii.npy
+  fps: 120
+  idx: 29
+  sub_motions:
+  - hml3d_id: 1761
+    idx: 29
+    labels:
+    - he puts down box to work
+    - person moves forward and moves right hand with something in it carefully
+    - while walking the person is carrying something, puts it down, and continues
+      to walk
+    timings:
+      end: 10.3
+      start: 0.3
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A3___Swing_stageii.npy
+  fps: 120
+  idx: 30
+  sub_motions:
+  - hml3d_id: 1765
+    idx: 30
+    labels:
+    - a person who is hunched forward stumbles to regain posture, sways body from
+      side to side and hunches forward one more time before standing upright
+    - a man's hips wobble as he stands
+    - a person rocks forward and backward while standing in place
+    timings:
+      end: 14.55
+      start: 4.7
+    weight: 1.0
+  - hml3d_id: 6641
+    idx: 31
+    labels:
+    - a man leans forward very slightly, then sways as he looks off to his left
+    - a man sways from side to side, bending forward at the hips twice. his arms hang
+      listlessly at his sides
+    - a person is swaying and slightly swinging his arms in front of him
+    timings:
+      end: 10.95
+      start: 0.95
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E4___quick_advance_stageii.npy
+  fps: 120
+  idx: 32
+  sub_motions:
+  - hml3d_id: 1774
+    idx: 32
+    labels:
+    - a man is holding both hands at eye level in a boxing motion while he advances
+      to someone or something in a straight line
+    - a man is in motion
+    - person is in a defensive posture moving horizontal sliding feet among the floor
+    timings:
+      end: 3.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B2___walk_to_stand_t2_stageii.npy
+  fps: 120
+  idx: 33
+  sub_motions:
+  - hml3d_id: 1828
+    idx: 33
+    labels:
+    - someone walks diagonally forward several steps
+    - person is taking a walk
+    - person walks diagonally on the screen
+    timings:
+      end: 4.9
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C4___run_to_walk_a_stageii.npy
+  fps: 120
+  idx: 34
+  sub_motions:
+  - hml3d_id: 1833
+    idx: 34
+    labels:
+    - a person starts to jog slowly then begins slowing even more to a walk then a
+      complete stop
+    - a man who is running straight forward
+    - a person runs forward for a second and then slows to a walk continue the movement
+      forward
+    timings:
+      end: 3.85
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B22___side_step_left_stageii.npy
+  fps: 120
+  idx: 35
+  sub_motions:
+  - hml3d_id: 1891
+    idx: 35
+    labels:
+    - a person walks sideways to the left
+    - a person carefully walking/ stepping to their side
+    - a person is stepping to the left
+    timings:
+      end: 9.2
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A8___Crouch_to_Lie_Down_stageii.npy
+  fps: 120
+  idx: 36
+  sub_motions:
+  - hml3d_id: 1934
+    idx: 36
+    labels:
+    - a man is going from a crouched position to lying down
+    - a man sits down. he stretches his legs out in front of him then lies down
+    - person is getting to lying down
+    timings:
+      end: 7.9
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C8___run_backwards_to_stand_stageii.npy
+  fps: 120
+  idx: 37
+  sub_motions:
+  - hml3d_id: 1968
+    idx: 37
+    labels:
+    - the man runs backwards then stops
+    - a man quickly runs backwards
+    - a man doing running drills
+    timings:
+      end: 4.05
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A9__Lie_stageii.npy
+  fps: 120
+  idx: 38
+  sub_motions:
+  - hml3d_id: 1975
+    idx: 38
+    labels:
+    - a person lays down on the ground with their hands placed forward and their elbows
+      bent
+    - a man lies down with his toes and hands touching the ground
+    - a man lays in a push-up position, his weight on his hands and feet
+    timings:
+      end: 3.15
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsExtended_c3d/Extended_1_stageii.npy
+  fps: 120
+  idx: 39
+  sub_motions:
+  - hml3d_id: 2040
+    idx: 39
+    labels:
+    - person is punching the air
+    - a person stands with their arms in front of them, bent at the elbow and steps
+      forward, jabbing outwards as if boxing
+    - a person holds their arms in front of them and makes punching motions
+    timings:
+      end: 10.05
+      start: 0.05
+    weight: 1.0
+  - hml3d_id: 6008
+    idx: 40
+    labels:
+    - a person holds their arms up in front of them, bent at the elbow as if boxing
+      and then shuffles forward and kicks out their left leg
+    - the person backed up and did a karate kick
+    - a man defensively jumps backwards, then kicks forwards with his right leg
+    timings:
+      end: 20.1
+      start: 12.45
+    weight: 1.0
+  - hml3d_id: 7440
+    idx: 41
+    labels:
+    - a person, in a fighting pose, backs up, then punches while moving forward, before
+      backing up and kicking
+    - walking to the side and punching hands
+    - he is moving back and forth while practicing his kick boxing
+    timings:
+      end: 15.6
+      start: 5.6
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C13____run_turn_left__135__stageii.npy
+  fps: 120
+  idx: 42
+  sub_motions:
+  - hml3d_id: 2169
+    idx: 42
+    labels:
+    - a person is running, then quickly stops and turns direction while continuing
+      running
+    - a person runs forward, briefly pauses, then turns and runs to the left
+    - a person running forward turned left and continued running
+    timings:
+      end: 2.9
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G14___roundhouse_body_left_stageii.npy
+  fps: 120
+  idx: 43
+  sub_motions:
+  - hml3d_id: 2179
+    idx: 43
+    labels:
+    - person kicks forward with their left leg, with their arms in front of them
+    - a person performs a kick with their left leg
+    - a person kicks his left leg and then stands in a karate position
+    timings:
+      end: 2.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D5___ready_to_walk_away_stageii.npy
+  fps: 120
+  idx: 44
+  sub_motions:
+  - hml3d_id: 2224
+    idx: 44
+    labels:
+    - person in an aggressive stance walks casually forward in a horizontal direction
+    - person walks quickly diagnal from right to left across matt
+    - the person is walking steadily
+    timings:
+      end: 4.5
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E3____cross_left_stageii.npy
+  fps: 120
+  idx: 45
+  sub_motions:
+  - hml3d_id: 2409
+    idx: 45
+    labels:
+    - a person throwing a left hook
+    - hard left punch jap forward
+    - a person strikes with his left arm
+    timings:
+      end: 3.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D12___ready_to_taunt_two_to_ready_stageii.npy
+  fps: 120
+  idx: 46
+  sub_motions:
+  - hml3d_id: 2468
+    idx: 46
+    labels:
+    - the person prepares to fight by raising there arms and getting in a fighting
+      stance
+    - person takes 2 steps forward, while raising both arms out to the side to shoulder
+      height, then a step back, bringing both arms back in front of the body to chest
+      height
+    - person seems to be moving hands active up in air like an air arm wrestle
+    timings:
+      end: 5.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G5____back_kick_stageii.npy
+  fps: 120
+  idx: 47
+  sub_motions:
+  - hml3d_id: 2614
+    idx: 47
+    labels:
+    - a person steps forward with their left foot, pivoting to their right and thrusting
+      their right foot out in a kicking motion behind them, then returns to a fighting
+      stance
+    - a man does a big kick
+    - the man does a backwards kick
+    timings:
+      end: 2.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G7____capoera_stageii.npy
+  fps: 120
+  idx: 48
+  sub_motions:
+  - hml3d_id: 2708
+    idx: 48
+    labels:
+    - a person does a quick wheel-like spin kick with left leg, pivoting on right
+      leg while both arms resume fighting gesture
+    - a person with their right foot in front of their left foot and arms up in front
+      of them, brings the back foot up in a sweeping kick motion while their left
+      hand reaches down to the ground and does a full circle and returns back
+    - a person doing a spin kick with right foot planted
+    timings:
+      end: 2.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A15___skip_to_stand_stageii.npy
+  fps: 120
+  idx: 49
+  sub_motions:
+  - hml3d_id: 2711
+    idx: 49
+    labels:
+    - this figure is happily strolling as if he won something
+    - person hops on legs from back right to front left
+    - a person skips, stops and stands
+    timings:
+      end: 4.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Gestures_c3d/D5___Random_Stuff_2_stageii.npy
+  fps: 120
+  idx: 50
+  sub_motions:
+  - hml3d_id: 2804
+    idx: 50
+    labels:
+    - someone is doing a breakdance on the ground and then doing a pose
+    - a person walks forward and raises both arms up and then puts one foot in front
+      of the other and walks forward like that
+    - person was circling then walking around
+    timings:
+      end: 16.65
+      start: 7.8
+    weight: 1.0
+  - hml3d_id: 6612
+    idx: 51
+    labels:
+    - person is doing cart wheels
+    - the person is doing cartwheels
+    - a person does a cartwheel, spins and does another cartwheel
+    timings:
+      end: 11.1
+      start: 1.1
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C19___run_to_jump_to_walk_stageii.npy
+  fps: 120
+  idx: 52
+  sub_motions:
+  - hml3d_id: 2862
+    idx: 52
+    labels:
+    - the figure walks and takes a leap forward landing then moving forward
+    - a person runs forward then jumps while swing arms, then walks forward
+    - a person runs quickly downward and jumps over something, then walks downward
+      towards the right hand side
+    timings:
+      end: 3.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A4__Look_Around_stageii.npy
+  fps: 120
+  idx: 53
+  sub_motions:
+  - hml3d_id: 2942
+    idx: 53
+    labels:
+    - a person stretches his neck from side to side, and then backwards and finally
+      to his side again
+    - a person slowly glances from side to side while remaining still
+    - a person stands still and looks back, forth, and down
+    timings:
+      end: 10.25
+      start: 0.25
+    weight: 1.0
+  - hml3d_id: 6011
+    idx: 54
+    labels:
+    - the person standing still looking around
+    - a man turns his head right and then left
+    - a person is standing still and looking around
+    timings:
+      end: 16.05
+      start: 7.9
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B23____side_step_right_stageii.npy
+  fps: 120
+  idx: 55
+  sub_motions:
+  - hml3d_id: 2956
+    idx: 55
+    labels:
+    - the person is side stepping
+    - a person takes a step to the side to move out of the way for something
+    - a person side steps to the right
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G13___cresent_right_stageii.npy
+  fps: 120
+  idx: 56
+  sub_motions:
+  - hml3d_id: 3243
+    idx: 56
+    labels:
+    - a person does a karate kick
+    - said person seems to be doing karate
+    - person in a defensive stance round house kicks angrly
+    timings:
+      end: 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E11___body_hook_right_t2_stageii.npy
+  fps: 120
+  idx: 57
+  sub_motions:
+  - hml3d_id: 3277
+    idx: 57
+    labels:
+    - a person punches with their right arm
+    - punching and holding arms up
+    - a man is punching with his left arm
+    timings:
+      end: 2.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E12___block_left_low_stageii.npy
+  fps: 120
+  idx: 58
+  sub_motions:
+  - hml3d_id: 3294
+    idx: 58
+    labels:
+    - a person stands in a martial arts ready position and raises their right hand
+      then turns ready to block
+    - a man pivots his right foot backwards whilst holding his arms up at shoulder
+      height
+    - person raises left hand, then moves entire left side of the body backwards.
+      appears to be fighting, or shadow boxing
+    timings:
+      end: 5.8
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A5__Pick_up_box_stageii.npy
+  fps: 120
+  idx: 59
+  sub_motions:
+  - hml3d_id: 3347
+    idx: 59
+    labels:
+    - a figure bends at the knees, picks up an object with both hands, and stands
+      up while holding the object
+    - this person slowly bends at the knees and lifts a large ball
+    - a person squats down and picks something up
+    timings:
+      end: 6.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C10____run_backwards_stop_run_forward_stageii.npy
+  fps: 120
+  idx: 60
+  sub_motions:
+  - hml3d_id: 3572
+    idx: 60
+    labels:
+    - a person runs backwards and then changes direction to run forwards
+    - a man runs backwards and the runs forwards
+    timings:
+      end: 5.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C5___walk_to_run_stageii.npy
+  fps: 120
+  idx: 61
+  sub_motions:
+  - hml3d_id: 3658
+    idx: 61
+    labels:
+    - the man is walking and then starts running diagonally
+    - a person walks forward then jogs
+    - a person begins walking to his right and then begins to run
+    timings:
+      end: 3.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C2___Run_to_stand_stageii.npy
+  fps: 120
+  idx: 62
+  sub_motions:
+  - hml3d_id: 3731
+    idx: 62
+    labels:
+    - a person is running diagonally across the floor, before coming to a stop and
+      standing still
+    - person ran acorss room
+    - a person runs quickly then comes to an abrupt stop, then sways their arms slightly
+      back and forth
+    timings:
+      end: 5.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C11____run_turn_left__90__stageii.npy
+  fps: 120
+  idx: 63
+  sub_motions:
+  - hml3d_id: 3824
+    idx: 63
+    labels:
+    - a person runs forward and then turns left
+    - a running man turns to the left and keeps running
+    timings:
+      end: 2.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B9___walk_turn_left__90__stageii.npy
+  fps: 120
+  idx: 64
+  sub_motions:
+  - hml3d_id: 3952
+    idx: 64
+    labels:
+    - a person walks while making a sweeping left turn
+    - someone walks straight forward then takes a sharp left and continues onward
+    - a man walks down then turns right to keep on walking
+    timings:
+      end: 7.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E14___block_right_low_stageii.npy
+  fps: 120
+  idx: 65
+  sub_motions:
+  - hml3d_id: 4187
+    idx: 65
+    labels:
+    - the man begins facing the right side with both arms raised to his chest. the
+      man then steps back and makes a cross motion with his arms almost like he is
+      in a fighting game. he then goes back to his original form
+    - man gets ready for a fight liu kang style
+    - a person standing in fight stance performs a low block
+    timings:
+      end: 2.95
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E7___uppercut_left_stageii.npy
+  fps: 120
+  idx: 66
+  sub_motions:
+  - hml3d_id: 4241
+    idx: 66
+    labels:
+    - a person throws an uppercut from the left arm
+    - a person doing a left uppercut
+    - a person performing a left handed uppercut
+    timings:
+      end: 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Male1_Cal_stageii.npy
+  fps: 120
+  idx: 67
+  sub_motions:
+  - hml3d_id: 4347
+    idx: 67
+    labels:
+    - the person is standing with his arms out at his side
+    - a person standing with their arms stretched out to the side
+    - a person hold their arms out side to side like wings
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C9____run_backwards_turn_run_forward_stageii.npy
+  fps: 120
+  idx: 68
+  sub_motions:
+  - hml3d_id: 4353
+    idx: 68
+    labels:
+    - the person is running around
+    - a figure faces forward and begins to run backwards, before twisting their body
+      and continue to run, now facing forward
+    - a man runs backwards ,quickly  turns on his left side and then runs faster
+    timings:
+      end: 2.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G15___roundhouse_body_right_stageii.npy
+  fps: 120
+  idx: 69
+  sub_motions:
+  - hml3d_id: 4365
+    idx: 69
+    labels:
+    - the person is performing a right leading front kick
+    - a man stands with feet apart left arm stretched and right arm bent, then lunges
+      forward and kicks his right foot into the air
+    - a person in a kickboxing stance does a leg kick
+    timings:
+      end: 2.95
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A8__Crouch_to_Lie_stageii.npy
+  fps: 120
+  idx: 70
+  sub_motions:
+  - hml3d_id: 4426
+    idx: 70
+    labels:
+    - a person crouches on their knees and then lays flat on their stomach
+    - person crouches down then lies down
+    - a person lays down on the floor to do a push up
+    timings:
+      end: 5.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B11___walk_turn_left__135__stageii.npy
+  fps: 120
+  idx: 71
+  sub_motions:
+  - hml3d_id: 4456
+    idx: 71
+    labels:
+    - a man walks forward and then turn to the right and keeps walking.,
+    - the man walks forward then turns left and walk away
+    - person walks forward five steps then turns left and walks towards the left diagonally
+    timings:
+      end: 9.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A1___Stand_stageii.npy
+  fps: 120
+  idx: 72
+  sub_motions:
+  - hml3d_id: 4501
+    idx: 72
+    labels:
+    - a person is facing forward without moving
+    - the person is standing still
+    - a person twitches their left hand
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B15____Walk_turn_around_stageii.npy
+  fps: 120
+  idx: 73
+  sub_motions:
+  - hml3d_id: 4575
+    idx: 73
+    labels:
+    - a person is walking down and then back up
+    - fast movements walking front to back
+    - a person walks forward, turns to face the opposite direction and retraces their
+      steps
+    timings:
+      end: 7.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B18____Walk_to_leap_to_walk_t3_stageii.npy
+  fps: 120
+  idx: 74
+  sub_motions:
+  - hml3d_id: 4596
+    idx: 74
+    labels:
+    - a person walks forward a few steps, breaks into a running jump, lands and continues
+      to walk
+    - a man walks 3 to 4 steps and jump a little high
+    - a person walks forward, then starts running, and ends with a running kick
+    timings:
+      end: 6.15
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B10____Walk_turn_left_45_stageii.npy
+  fps: 120
+  idx: 75
+  sub_motions:
+  - hml3d_id: 4653
+    idx: 75
+    labels:
+    - a man walks forward for 5 steps.  he then turns 45 degrees to his left and continues
+      walking
+    - a person briskly walks forward before turning left and continuing on
+    - a person walks forward, turns to the left, and continues walking
+    timings:
+      end: 6.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A9_____Lie__forward__t2_stageii.npy
+  fps: 120
+  idx: 76
+  sub_motions:
+  - hml3d_id: 4692
+    idx: 76
+    labels:
+    - man lies on ground moves head back and forth starting to the right
+    - a man is lying down and moves his head slightly
+    - the man is splayed out on the floor, taps his hands, and lifts his head to look
+      around
+    timings:
+      end: 8.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E18___block_middle_low_stageii.npy
+  fps: 120
+  idx: 77
+  sub_motions:
+  - hml3d_id: 4730
+    idx: 77
+    labels:
+    - the person is in a fighting stance, then hops backwards and lowers their hands,
+      trying to dodge something
+    - the person appears to be in a fight stance
+    - a person jumps backwards and puts their hands together
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A6__lift_box_t2_stageii.npy
+  fps: 120
+  idx: 78
+  sub_motions:
+  - hml3d_id: 4747
+    idx: 78
+    labels:
+    - a person picks something up then sets it down
+    - a person carrying something lifted it up above head
+    - a man lifts both hands up in the air
+    timings:
+      end: 7.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G8____roundhouse_left_stageii.npy
+  fps: 120
+  idx: 79
+  sub_motions:
+  - hml3d_id: 4914
+    idx: 79
+    labels:
+    - a person doing a roundhouse kick with the left leg
+    - the man did a karate kick forward
+    - the person karate kicks with their left leg
+    timings:
+      end: 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G17___push_kick_left_stageii.npy
+  fps: 120
+  idx: 80
+  sub_motions:
+  - hml3d_id: 4993
+    idx: 80
+    labels:
+    - a man has his forearms raised to protect himself, he then kicks forward with
+      his left leg
+    - a person kicks left leg forward while hands are in a defensive pose
+    - person is kicking something
+    timings:
+      end: 4.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C22____run_with_box_stageii.npy
+  fps: 120
+  idx: 81
+  sub_motions:
+  - hml3d_id: 5114
+    idx: 81
+    labels:
+    - the person starts running quickly
+    - he ran diagonally toward the right
+    - a man jogs forward, holding something at chest level in both hands
+    timings:
+      end: 2.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B7___walk_backwards_turn_forwards_stageii.npy
+  fps: 120
+  idx: 82
+  sub_motions:
+  - hml3d_id: 5161
+    idx: 82
+    labels:
+    - a person walks backwards, turns around toward his left and then walks away
+    - person walks backward, then turns around and walks normally
+    - person walks backwards unbalanced and then does a 180 and walks in a straight
+      line
+    timings:
+      end: 8.7
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E11___backfist_left_stageii.npy
+  fps: 120
+  idx: 83
+  sub_motions:
+  - hml3d_id: 5216
+    idx: 83
+    labels:
+    - the man uses the back side of his left hands to perform a smacking motion in
+      front of him
+    - a person hit something with left hand
+    - moving from side to side
+    timings:
+      end: 2.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A11___crawl_forward_stageii.npy
+  fps: 120
+  idx: 84
+  sub_motions:
+  - hml3d_id: 5259
+    idx: 84
+    labels:
+    - a person on the ground crawls forward
+    - a man is crawling and moving it's whole body in a zigzag motion
+    - a person is laying down and then army crawls forward cautiously
+    timings:
+      end: 10.4
+      start: 0.4
+    weight: 1.0
+  - hml3d_id: 9914
+    idx: 85
+    labels:
+    - a person belly crawls forward
+    - a person crawls forward slowly
+    - person crawls forward on their stomach
+    timings:
+      end: 17.05
+      start: 7.05
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B18____Walk_to_leap_to_walk_t2_stageii.npy
+  fps: 120
+  idx: 86
+  sub_motions:
+  - hml3d_id: 5372
+    idx: 86
+    labels:
+    - a person walking speeds up then jumps and kicks their heels together before
+      walking away
+    - a person walks forward and jumps over something
+    - a person jumps over something while walking and continues to walk
+    timings:
+      end: 4.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A4___look_stageii.npy
+  fps: 120
+  idx: 87
+  sub_motions:
+  - hml3d_id: 5374
+    idx: 87
+    labels:
+    - a person stands and slowly looks from the left to the right
+    - this person stands still and moves his head from left to right
+    - a person standing motionless looks down at the ground, then looks left, then
+      looks righta person standing motionless looks down at the ground, then looks
+      left, then looks right
+    timings:
+      end: 18.3
+      start: 8.3
+    weight: 1.0
+  - hml3d_id: 12291
+    idx: 88
+    labels:
+    - a person looks forward, then looks to their left, then looks to their right
+    - a man faces the camera and stands in place, and then turns his neck to look
+      to his left, then turns his neck to look to his right, before returning to the
+      starting position
+    - a person slowly looks back and forth
+    timings:
+      end: 10.3
+      start: 0.3
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E13___block_right_high_stageii.npy
+  fps: 120
+  idx: 89
+  sub_motions:
+  - hml3d_id: 5401
+    idx: 89
+    labels:
+    - someone raises their right arm in defense mode
+    - a man has his arms in a fighting position in front of him, with elbows bent,
+      before he lifts his right arm to block something from above, and then returns
+      to his original position
+    - a person is blocking something with their right arm
+    timings:
+      end: 3.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Gestures_c3d/D1___Urban_1_stageii.npy
+  fps: 120
+  idx: 90
+  sub_motions:
+  - hml3d_id: 5534
+    idx: 90
+    labels:
+    - a person appears to be interacting with another person we cannot see. they are
+      waving their right hand in the air appearing to give a "no" signal to the other
+      person
+    - a man sways to his side and waves
+    - a person looks to be waiving or dancing with their right hand and then again
+      with their left hand infront of their face
+    timings:
+      end: 10.8
+      start: 0.8
+    weight: 1.0
+  - hml3d_id: 7832
+    idx: 91
+    labels:
+    - a person waves their right hand, sways from back and forth, then waves around
+      their left hand, then puts both hands on their hips and shifts their weight
+      onto their right side
+    - person swing body hand and hips standing in one spot
+    - a person is moving left hand in a cirlce
+    timings:
+      end: 14.15
+      start: 4.15
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A8____Crourch_to_Lie__forward__stageii.npy
+  fps: 120
+  idx: 92
+  sub_motions:
+  - hml3d_id: 5572
+    idx: 92
+    labels:
+    - crouching and then laying down
+    - a person squats down, then crawls forward and sprawls flat on her stomach
+    - squats, then leans forwards into a crawl position to lay flat on the stomach
+    timings:
+      end: 6.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D13__crouch_to_ready_stageii.npy
+  fps: 120
+  idx: 93
+  sub_motions:
+  - hml3d_id: 5662
+    idx: 93
+    labels:
+    - the person was scratching and ready to attack
+    - a man down on one knee stands up and takes a stance of a southpaw boxer with
+      his hands raised in a defense position
+    - a person on one knee stands up with their fist raised out in front of them
+    timings:
+      end: 3.8
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D8___bow_to_ready_stageii.npy
+  fps: 120
+  idx: 94
+  sub_motions:
+  - hml3d_id: 5815
+    idx: 94
+    labels:
+    - a person bows to ready then gets in a martial arts ready stance
+    - person clasps their hands in front of them and biws slightly then turns slightly
+      to the left and flexes left arm
+    - a person with hands together then steps back with their left foot and brings
+      their arm back as well in a fighting position brings their arm back as well
+      in a fighting position
+    timings:
+      end: 4.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B1___stand_to_walk_stageii.npy
+  fps: 120
+  idx: 95
+  sub_motions:
+  - hml3d_id: 5857
+    idx: 95
+    labels:
+    - a person walks forwards slowly starting with their left foot and making 7 full
+      steps
+    - a person walks forwards confidently
+    - someone walking in a strong manner
+    timings:
+      end: 6.25
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B23___Side_step_right_stageii.npy
+  fps: 120
+  idx: 96
+  sub_motions:
+  - hml3d_id: 5860
+    idx: 96
+    labels:
+    - a person moved in right direction
+    - the person took a giant step to the right
+    - moving from side to side
+    timings:
+      end: 3.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A3__Swing_arms_stageii.npy
+  fps: 120
+  idx: 97
+  sub_motions:
+  - hml3d_id: 5927
+    idx: 97
+    labels:
+    - a person while standing in the same position swings his arms back and forth
+    - a person swings both of their arms, bringing their hands together at the front
+      and spreading them apart towards the back of the swing
+    - a person moves arms in and out in front of his body
+    timings:
+      end: 10.7
+      start: 1.1
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E7___super_fast_advance_stageii.npy
+  fps: 120
+  idx: 98
+  sub_motions:
+  - hml3d_id: 5975
+    idx: 98
+    labels:
+    - a person moving left and right briskly
+    - a person aggressively walks forward
+    - a person skips across the ground until reaching the other side with their right
+      foot extended
+    timings:
+      end: 4.25
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Gestures_c3d/Female1_Subj_Calibration_stageii.npy
+  fps: 120
+  idx: 99
+  sub_motions:
+  - hml3d_id: 6084
+    idx: 99
+    labels:
+    - a person is holding both his hands raised
+    - the figure stands with their arms stretched out to their sides, unmoving
+    - person is standing with arms fully spread out, palms down. remains motionless
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B20___walk_with_box_stageii.npy
+  fps: 120
+  idx: 100
+  sub_motions:
+  - hml3d_id: 6114
+    idx: 100
+    labels:
+    - a person walks forward carrying something
+    - a woman walks at a steady pace while holding something with both hands facing
+      up
+    timings:
+      end: 4.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B22___Side_step_left_stageii.npy
+  fps: 120
+  idx: 101
+  sub_motions:
+  - hml3d_id: 6184
+    idx: 101
+    labels:
+    - a person takes a big step to the left
+    - a person does a large side step to the left
+    - a person takes a side step to their left
+    timings:
+      end: 4.65
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G9___roundhouse_right_t2_stageii.npy
+  fps: 120
+  idx: 102
+  sub_motions:
+  - hml3d_id: 6277
+    idx: 102
+    labels:
+    - a man stands and a defensive position, brings his right leg forward in a kick,
+      and returns back to a defensive stance
+    - a person holding up his hands in a fighting position, kicks high with his right
+      leg and returns to his fighting position
+    - a man hilds both hands up in a defensive stance. he kicks with his right leg
+      in an upward motion and then goes back to a defensive position
+    timings:
+      end: 2.85
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsExtended_c3d/Extended_3_stageii.npy
+  fps: 120
+  idx: 103
+  sub_motions:
+  - hml3d_id: 6375
+    idx: 103
+    labels:
+    - a person steps from side to side, touches the ground, and swings his right leg
+      up and around several times
+    - a person dances around and then performs two kicks
+    - the person does various martial arts moves
+    timings:
+      end: 29.25
+      start: 19.25
+    weight: 1.0
+  - hml3d_id: 12452
+    idx: 104
+    labels:
+    - a person moves around side stepping and kicking
+    - walking back and flailing arms and legs
+    - the person is extending and dodging someone
+    timings:
+      end: 52.45
+      start: 42.45
+    weight: 1.0
+  - hml3d_id: 14267
+    idx: 105
+    labels:
+    - a person runs back and forth while delivering various roundhouse kicks
+    - a person is performing various kicks while moving from one side to the other
+    - the man is moving very fast kicking the air
+    timings:
+      end: 34.7
+      start: 24.7
+    weight: 1.0
+  - hml3d_id: 14400
+    idx: 106
+    labels:
+    - a person is doing a dance and kicks the air
+    - the person is doing some kind of kick dance forward
+    - a person stands and kicks highly one foot at a time
+    timings:
+      end: 21.4
+      start: 11.4
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G18___push_kick_right_stageii.npy
+  fps: 120
+  idx: 107
+  sub_motions:
+  - hml3d_id: 6399
+    idx: 107
+    labels:
+    - a man lunges forward and kicks with his right foot
+    - a man kicks forward with his right leg, while moving forward
+    - the person does one kick towards the right
+    timings:
+      end: 2.9
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G3___Sidekick_leading_right_stageii.npy
+  fps: 120
+  idx: 108
+  sub_motions:
+  - hml3d_id: 6491
+    idx: 108
+    labels:
+    - the person kicks to their right
+    - a person kicked the right leg
+    - the person is doing a right sidekick
+    timings:
+      end: 2.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A2___Sway_t2_stageii.npy
+  fps: 120
+  idx: 109
+  sub_motions:
+  - hml3d_id: 6559
+    idx: 109
+    labels:
+    - a man is standing still and then puts his arms on his hips and then lowers them
+    - a man stands on the ground, puts his hands on the hips and then swings from
+      left to right
+    - a person sways from left to right
+    timings:
+      end: 14.7
+      start: 4.7
+    weight: 1.0
+  - hml3d_id: 13261
+    idx: 110
+    labels:
+    - sway your hips from side to side
+    - someone moves from right to left, then puts their hands on the waist
+    - the person is swaying back-and-forth
+    timings:
+      end: 11.35
+      start: 1.35
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E2____Jab_right_stageii.npy
+  fps: 120
+  idx: 111
+  sub_motions:
+  - hml3d_id: 6584
+    idx: 111
+    labels:
+    - a person with their hands in front of their face, punches with their right hand
+    - a person holds their arms in front of them, and makes a quick punch with their
+      right arm
+    - a man stands with his legs apart in a defensive posture with his arms bent in
+      front of him, and he steps forward and jabs with his right hand before stepping
+      back
+    timings:
+      end: 2.85
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B17___walk_to_hop_to_walk1_stageii.npy
+  fps: 120
+  idx: 112
+  sub_motions:
+  - hml3d_id: 6611
+    idx: 112
+    labels:
+    - the man is walking to hop
+    - a person walks forward and does a little skip half way
+    - a person walks forward, skips, and continues walking side to side
+    timings:
+      end: 6.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E9___side_step_left_stageii.npy
+  fps: 120
+  idx: 113
+  sub_motions:
+  - hml3d_id: 6666
+    idx: 113
+    labels:
+    - a person fastly moved in left direction while the hads was raised
+    - person is backing up to the left
+    - he is dodging a punch in a fight
+    timings:
+      end: 2.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C6___stand_to_run_backwards_stageii.npy
+  fps: 120
+  idx: 114
+  sub_motions:
+  - hml3d_id: 6748
+    idx: 114
+    labels:
+    - a person is running backwards
+    - a person fastly walking backwards, from back
+    - a person runs backwards from one end to the other
+    timings:
+      end: 7.5
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Gestures_c3d/D2___Wait_1_stageii.npy
+  fps: 120
+  idx: 115
+  sub_motions:
+  - hml3d_id: 6969
+    idx: 115
+    labels:
+    - someone cocks their hip to the right and holds out their left hand, palm up,
+      at shoulder level
+    - a person signals to wait with right hand
+    - a person puts forward their right hand to tell a person to wait
+    timings:
+      end: 38.55
+      start: 30.25
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E4____cross_right_stageii.npy
+  fps: 120
+  idx: 116
+  sub_motions:
+  - hml3d_id: 6996
+    idx: 116
+    labels:
+    - a person holds up both hands and slightly waivers before boxing
+    - a person punches something on their left-hand side, while keeping their other
+      arm raised defensively
+    - a person turns to the right and punches with their right arm
+    timings:
+      end: 2.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C4___Run_to_walk1_stageii.npy
+  fps: 120
+  idx: 117
+  sub_motions:
+  - hml3d_id: 7057
+    idx: 117
+    labels:
+    - a person ran forward in right direction
+    - a person runs in a straight line before slowing down to a walk
+    - a person runs forward then slows themselves heavily to a walk
+    timings:
+      end: 3.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C1___stand_to_run_stageii.npy
+  fps: 120
+  idx: 118
+  sub_motions:
+  - hml3d_id: 7110
+    idx: 118
+    labels:
+    - a person loosely jogs forward
+    - the person standing still and getting ready to run
+    - a person jogs forward in a straight line
+    timings:
+      end: 4.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B17___Walk_2_hop_2_walk_stageii.npy
+  fps: 120
+  idx: 119
+  sub_motions:
+  - hml3d_id: 7321
+    idx: 119
+    labels:
+    - walking forward and jumping
+    - a person walks forward and then leaps over some object on the ground  before
+      continuing walking
+    - a person walks forward, jumps over something, then continues to walk
+    timings:
+      end: 8.2
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A2___Sway_stageii.npy
+  fps: 120
+  idx: 120
+  sub_motions:
+  - hml3d_id: 7361
+    idx: 120
+    labels:
+    - a person sways to the left and then to their right
+    - a person stayed on the place and moved a little bit
+    - a person sways on his feet slowly
+    timings:
+      end: 9.05
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/s008/Run1_stageii.npy
+  fps: 120
+  idx: 121
+  sub_motions:
+  - hml3d_id: 7538
+    idx: 121
+    labels:
+    - a person rapidly runs in a diagonal
+    - a person sprints diagonally to his left
+    - a person is running really fast
+    timings:
+      end: 1.85
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A7__Crouch_stageii.npy
+  fps: 120
+  idx: 122
+  sub_motions:
+  - hml3d_id: 7592
+    idx: 122
+    labels:
+    - band on the floor and get down the head
+    - someone crouches on their left knee with their right hand on the ground and
+      their left arm lifted behind them
+    - a person is crouching down with their right arm in front and left arm back behind
+      them for support
+    timings:
+      end: 4.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B25___crouch_to_walk1_stageii.npy
+  fps: 120
+  idx: 123
+  sub_motions:
+  - hml3d_id: 7703
+    idx: 123
+    labels:
+    - a person walks forward slowly
+    - this person gets up from a swat position then walks forward
+    - a person stands from a crouched position and walks forwards while swaying their
+      hips
+    timings:
+      end: 5.95
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E5____hook_left_stageii.npy
+  fps: 120
+  idx: 124
+  sub_motions:
+  - hml3d_id: 7879
+    idx: 124
+    labels:
+    - a person swings a left hook
+    - the man does a quick hook shot towards the location where some ones gut would
+      be
+    - a person gives a left hook
+    timings:
+      end: 2.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G9____roundhouse_right_stageii.npy
+  fps: 120
+  idx: 125
+  sub_motions:
+  - hml3d_id: 7895
+    idx: 125
+    labels:
+    - a person kicks with their right foot and then moves back into a fighting stance
+    - a person pivots on left leg and kicks forward with his right leg as if he is
+      fighting, then pivots back, with left side forward and fists up in a defensive
+      position
+    - a man kicks once with his right leg
+    timings:
+      end: 1.8
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G6____axe_kick_stageii.npy
+  fps: 120
+  idx: 126
+  sub_motions:
+  - hml3d_id: 7907
+    idx: 126
+    labels:
+    - the person is walking to the right doing an ax kick
+    - the person completes a scissor kick
+    - a person does a round-house kick
+    timings:
+      end: 2.9
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G19___reverse_spin_cresent_left_stageii.npy
+  fps: 120
+  idx: 127
+  sub_motions:
+  - hml3d_id: 7962
+    idx: 127
+    labels:
+    - a person is kicking with the right leg
+    - a person does a round house kick with their left foot then comes back to beginning
+      position
+    - the person is doing a reversed punch
+    timings:
+      end: 3.25
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/s011/walkdog_stageii.npy
+  fps: 120
+  idx: 128
+  sub_motions:
+  - hml3d_id: 8023
+    idx: 128
+    labels:
+    - person holding something in right hand but gets pulled and has to chase
+    - a person is stumbling around while being pulled by something
+    - the person's struggles while walking the dog
+    timings:
+      end: 16.3
+      start: 9.55
+    weight: 1.0
+  - hml3d_id: 11122
+    idx: 129
+    labels:
+    - a person walks forward, then is jerked to their right
+    - a dog pulls the person walking it sharply to the right and the person jerks
+      the dog back into walkimg a circle
+    - a man is walking his dog when all of a sudden the dog jerks him to his right
+      and he tries to gain control by pulling on the leash
+    timings:
+      end: 10.1
+      start: 0.1
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C15____run_turn_right___45__stageii.npy
+  fps: 120
+  idx: 130
+  sub_motions:
+  - hml3d_id: 8309
+    idx: 130
+    labels:
+    - person runninng to right side curves left while running with arms held at 90
+      degree angles at waist
+    - a person is running quickly and making a right turn
+    - man running in 45 degree angle
+    timings:
+      end: 2.15
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C3___Run_stageii.npy
+  fps: 120
+  idx: 131
+  sub_motions:
+  - hml3d_id: 8353
+    idx: 131
+    labels:
+    - the man runs forwards nicely
+    - a person quickly jogs forwards
+    - a person sprints forward quickly
+    timings:
+      end: 1.7
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C20____run_to_jump_to_walk_stageii.npy
+  fps: 120
+  idx: 132
+  sub_motions:
+  - hml3d_id: 8541
+    idx: 132
+    labels:
+    - a person runs, then jumps and walks slowly
+    - a man runs forward slightly to the left and then jumps
+    - a person starts to run, after a few steps jumps as short distance, before walking
+      again
+    timings:
+      end: 4.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D16___switch_stance_and_bounce_stageii.npy
+  fps: 120
+  idx: 133
+  sub_motions:
+  - hml3d_id: 8677
+    idx: 133
+    labels:
+    - the man switches stance and bounces
+    - a person is in a fighting standing with their right side forward. they pivot
+      and switch to their left side
+    - a person holds both hands up and stands with right foot forward, then switches
+      position so left foot is foward, and then goes back
+    timings:
+      end: 4.9
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B21____put_down_box_to_walk_stageii.npy
+  fps: 120
+  idx: 134
+  sub_motions:
+  - hml3d_id: 8706
+    idx: 134
+    labels:
+    - a person put down something and  slowly walked forward
+    - the man puts somwthing on thw ground and walks forward
+    - the person put down a box to walk forward
+    timings:
+      end: 5.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsExtended_c3d/Extended_2_stageii.npy
+  fps: 120
+  idx: 135
+  sub_motions:
+  - hml3d_id: 8811
+    idx: 135
+    labels:
+    - a person is moving around dancing with their arms
+    - a person does karate moves using his hands and goes back and forth
+    - a person steps forward while frantically waving their hands. they then step
+      backwards while stile frantically waving their hands out on front of them
+    timings:
+      end: 11.15
+      start: 1.15
+    weight: 1.0
+  - hml3d_id: 11369
+    idx: 136
+    labels:
+    - person violently sweeps his arms back and forth across each other, as if fending
+      off something from attacking him, while slowly moving backwards, then stopping
+      and walking forwards
+    - person is dancing or swiping at something
+    - a person swings their arms in front of them as they move backwards towards the
+      left
+    timings:
+      end: 17.75
+      start: 8.55
+    weight: 1.0
+- file: ACCAD-smpl/s009/Sprint1_stageii.npy
+  fps: 120
+  idx: 137
+  sub_motions:
+  - hml3d_id: 8976
+    idx: 137
+    labels:
+    - a person starts to run while starting from a standstill position across a floor
+      and then stops
+    - a person sprints to the front left
+    - the man is sprinting happily
+    timings:
+      end: 2.25
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E10___body_hook_right_stageii.npy
+  fps: 120
+  idx: 138
+  sub_motions:
+  - hml3d_id: 9411
+    idx: 138
+    labels:
+    - a person grabbed something and moved backwards
+    - a person grabs something with their hands and takes a sideways step to the left
+    - the person is holding something in its hands and moves back a bit
+    timings:
+      end: 2.5
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E10___side_step_right_stageii.npy
+  fps: 120
+  idx: 139
+  sub_motions:
+  - hml3d_id: 9414
+    idx: 139
+    labels:
+    - a person is doing a side step
+    - this person steps back as if to fight
+    - moving hands around near chest
+    timings:
+      end: 1.95
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C27___crouch_to_run1_stageii.npy
+  fps: 120
+  idx: 140
+  sub_motions:
+  - hml3d_id: 9436
+    idx: 140
+    labels:
+    - crouching and then running diagonally
+    - a person kneeled to the ground starts sprinting in a diagonal line
+    - a person starts running from a crouched position
+    timings:
+      end: 3.25
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C8____run_backwards_to_stand_stageii.npy
+  fps: 120
+  idx: 141
+  sub_motions:
+  - hml3d_id: 9446
+    idx: 141
+    labels:
+    - man runs backwards and then stops and stands
+    - the person was facing forward for jogging backwards
+    - a person is jogging backwards and then stops
+    timings:
+      end: 4.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A11__Crawl_stageii.npy
+  fps: 120
+  idx: 142
+  sub_motions:
+  - hml3d_id: 9691
+    idx: 142
+    labels:
+    - a soldier army crawls across the ground
+    - a person is crawling on the ground
+    - a person sneakily crawls forward
+    timings:
+      end: 10.85
+      start: 0.85
+    weight: 1.0
+  - hml3d_id: 12727
+    idx: 143
+    labels:
+    - a person crawls along the ground on their belly
+    - figure army crawls diagonally to the lower right of screen
+    - a man crawls on his stomach towards the right
+    timings:
+      end: 13.35
+      start: 5.95
+    weight: 1.0
+- file: ACCAD-smpl/Female1Gestures_c3d/D6__CartWheel_stageii.npy
+  fps: 120
+  idx: 144
+  sub_motions:
+  - hml3d_id: 9702
+    idx: 144
+    labels:
+    - a standing person performs a cartwheel starting with their left hand
+    - a man steps forward and then does a cartwheel
+    - a person does a cartwheel
+    timings:
+      end: 4.8
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E22___duck_right_stageii.npy
+  fps: 120
+  idx: 145
+  sub_motions:
+  - hml3d_id: 9725
+    idx: 145
+    labels:
+    - stick figure moving to the left
+    - a person evading something by dodging to the right
+    - the person ducked to the right
+    timings:
+      end: 2.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A1__Stand_stageii.npy
+  fps: 120
+  idx: 146
+  sub_motions:
+  - hml3d_id: 9765
+    idx: 146
+    labels:
+    - standing completely still and not moving
+    - the person is standing still
+    - a person stands still and does not move
+    timings:
+      end: 3.85
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A14___stand_to_skip_stageii.npy
+  fps: 120
+  idx: 147
+  sub_motions:
+  - hml3d_id: 9767
+    idx: 147
+    labels:
+    - person skipping jauntily forward in a slightly diagonal path
+    - the person is skipping across the room
+    - a person bounces while walking forward
+    timings:
+      end: 5.15
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E16___body_jab_left_stageii.npy
+  fps: 120
+  idx: 148
+  sub_motions:
+  - hml3d_id: 9781
+    idx: 148
+    labels:
+    - a person performs a low jab using the left hand
+    - a person punches with his left hand
+    - a person with both arms raised punches out with his left hand
+    timings:
+      end: 2.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C25___quick_sidestep_right_stageii.npy
+  fps: 120
+  idx: 149
+  sub_motions:
+  - hml3d_id: 9804
+    idx: 149
+    labels:
+    - a person slides to their right
+    - a figure quickly sidesteps to their right
+    - the person takes a big side step to the right
+    timings:
+      end: 2.05
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D9___t2___male2_blanks_stageii.npy
+  fps: 120
+  idx: 150
+  sub_motions:
+  - hml3d_id: 9868
+    idx: 150
+    labels:
+    - a person who is standing and holding up his hands in a fighting position, drops
+      his hands, puts his hands on his hips, then raises his hands, rolls them and
+      signals to listen to him as he walks to his right
+    - a man avoids a fight by walking away
+    - he starts to dance a lot
+    timings:
+      end: 5.85
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B27____skip_to_walk_a_stageii.npy
+  fps: 120
+  idx: 151
+  sub_motions:
+  - hml3d_id: 9882
+    idx: 151
+    labels:
+    - character is walking at a normal pace before speeding up and hopping several
+      times
+    - a man skips while walking
+    - a person who is moving forward takes two skipping steps and resumes walking
+    timings:
+      end: 4.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B12___walk_turn_right__90__stageii.npy
+  fps: 120
+  idx: 152
+  sub_motions:
+  - hml3d_id: 10091
+    idx: 152
+    labels:
+    - a person walks forward then turn right then walks forward again
+    - a person walks to his right
+    - the person was walking and turned right
+    timings:
+      end: 7.8
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E21___duck_left_stageii.npy
+  fps: 120
+  idx: 153
+  sub_motions:
+  - hml3d_id: 10221
+    idx: 153
+    labels:
+    - a person dodge something with head
+    - the person with their arms up dodges what appears to be a punch
+    - the person is in a stance and moves its red leg forward like its fighting
+    timings:
+      end: 2.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B14____Walk_turn_right_45_t2_stageii.npy
+  fps: 120
+  idx: 154
+  sub_motions:
+  - hml3d_id: 10231
+    idx: 154
+    labels:
+    - a person walks straight then walks in a diagonal line to the right
+    - a person walks to his right and stops
+    - a person walks forward and then turns to walk in a curve to the right
+    timings:
+      end: 5.8
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E2___Turn_around_left_stageii.npy
+  fps: 120
+  idx: 155
+  sub_motions:
+  - hml3d_id: 10367
+    idx: 155
+    labels:
+    - person stands in a fighting position and moves feet back and fourth little at  a
+      time
+    - a person is preparing for a fight
+    - the person is turning around to the left
+    timings:
+      end: 10.7
+      start: 0.7
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B4___Stand_to_Walk_backwards_stageii.npy
+  fps: 120
+  idx: 156
+  sub_motions:
+  - hml3d_id: 10494
+    idx: 156
+    labels:
+    - he stands to walk backwards
+    - a individual walks backward a few steps
+    - a person is waslking backwards
+    timings:
+      end: 4.65
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B16___Walk_turn_change_stageii.npy
+  fps: 120
+  idx: 157
+  sub_motions:
+  - hml3d_id: 10569
+    idx: 157
+    labels:
+    - a person walks straight forward and then turns to the right
+    - a person walks forward, turns, and then walks straight in another direction
+    - a person slowly walked forward and in right direction
+    timings:
+      end: 10.7
+      start: 0.7
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A6___Lift_Box_stageii.npy
+  fps: 120
+  idx: 158
+  sub_motions:
+  - hml3d_id: 10612
+    idx: 158
+    labels:
+    - a person lifts their arms over their head and then lowers them
+    - a person who is standing with his hands by his sides, grips something with both
+      of his hands, lifts it above his head and brings it back down to his original
+      position
+    - a person lifts something up over their head
+    timings:
+      end: 4.95
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E15___block_left_middle_stageii.npy
+  fps: 120
+  idx: 159
+  sub_motions:
+  - hml3d_id: 10662
+    idx: 159
+    labels:
+    - the person blocked being punched in the face
+    - a person stands in a defensive posture with arms up and dodges a blow
+    - a person shields himself with his left arm
+    timings:
+      end: 2.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E19___dodge_left_t2_stageii.npy
+  fps: 120
+  idx: 160
+  sub_motions:
+  - hml3d_id: 10692
+    idx: 160
+    labels:
+    - a person holds arms out, appears to dodge something, then stretches right arm
+      forward
+    - a person stands with their hands at a ready position at sholder level. they
+      then quickly lean left as to avoid something with their head and upper torso
+    - a person dodging to their left side
+    timings:
+      end: 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B15___Walk_turn_around_stageii.npy
+  fps: 120
+  idx: 161
+  sub_motions:
+  - hml3d_id: 10769
+    idx: 161
+    labels:
+    - walks normally in a straight direction, turns around then walks straight back
+    - the person walked forward then turned around and walked back again
+    - a man walks across an object then turns around and walks back
+    timings:
+      end: 11.05
+      start: 1.05
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B15___walk_turn_around__same_direction__stageii.npy
+  fps: 120
+  idx: 162
+  sub_motions:
+  - hml3d_id: 10851
+    idx: 162
+    labels:
+    - walking forward in a straight line then back
+    - a person walks forward before turning around and walking back
+    - man walks slowly forward then turns 180 degrees to the left and walks forward
+      back where he began
+    timings:
+      end: 10.45
+      start: 0.45
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B26____walk_to_skip_stageii.npy
+  fps: 120
+  idx: 163
+  sub_motions:
+  - hml3d_id: 10916
+    idx: 163
+    labels:
+    - he takes a few steps forward, then he skips 4 or 5 times
+    - a person walks then starts skipping
+    - the person walks forward then jogs forward
+    timings:
+      end: 5.9
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B10___walk_turn_left__45__stageii.npy
+  fps: 120
+  idx: 164
+  sub_motions:
+  - hml3d_id: 10988
+    idx: 164
+    labels:
+    - a persons walks forward, then make a slight left turn and continues walking
+    - the person walks in front of them then turns to their left while walking
+    - a person walks straight and then turns to the left while continuing to walk
+    timings:
+      end: 7.95
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B17____Walk_to_hop_to_walk_stageii.npy
+  fps: 120
+  idx: 165
+  sub_motions:
+  - hml3d_id: 11040
+    idx: 165
+    labels:
+    - a person slowly walked forward in right direction
+    - walking forward and jumping
+    timings:
+      end: 5.5
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C14____run_turn_right___90__stageii.npy
+  fps: 120
+  idx: 166
+  sub_motions:
+  - hml3d_id: 11105
+    idx: 166
+    labels:
+    - the person is jogging forward turning right
+    - person runs forward, then runs to their right
+    - running in a diagonal line
+    timings:
+      end: 4.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Running_c3d/Run_C25___quick_side_step_right_stageii.npy
+  fps: 120
+  idx: 167
+  sub_motions:
+  - hml3d_id: 11200
+    idx: 167
+    labels:
+    - the man leaps to the left
+    - a person quickly jumps to their right
+    - the person does a big side step to its red side
+    timings:
+      end: 3.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C24____side_step_left_stageii.npy
+  fps: 120
+  idx: 168
+  sub_motions:
+  - hml3d_id: 11217
+    idx: 168
+    labels:
+    - a figure side leaps to the left then takes of jogging in that direction
+    - a person jumps sideways to the left while pulling their arms in and elbows out,
+      then they continue running
+    - the person jumps to the side, then runs in that direction
+    timings:
+      end: 4.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C9___run_backwards_turn_run_forward_stageii.npy
+  fps: 120
+  idx: 169
+  sub_motions:
+  - hml3d_id: 11232
+    idx: 169
+    labels:
+    - a person runs backwards, turns halfway then runs forward
+    - a person runs backwards then turns adound and continues running forwards in
+      the same direction
+    - a person runs backwards then turns and continues running forewards
+    timings:
+      end: 3.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/s007/QkWalk1_stageii.npy
+  fps: 120
+  idx: 170
+  sub_motions:
+  - hml3d_id: 11414
+    idx: 170
+    labels:
+    - a person walks to the left quickly
+    - a person takes quick steps diagonally to their left whilst swinging their arms
+      aggressively
+    - a person walks diagonally across the room while swinging their arms up in front
+      of their body alternatively
+    timings:
+      end: 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A2___Sway_t2_stageii.npy
+  fps: 120
+  idx: 171
+  sub_motions:
+  - hml3d_id: 11533
+    idx: 171
+    labels:
+    - the person is leaning slightly back and forth
+    - a person balances on a board and sways their body from side to side
+    - a person sways their body side to side
+    timings:
+      end: 9.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B18___walk_to_leap_to_walk_stageii.npy
+  fps: 120
+  idx: 172
+  sub_motions:
+  - hml3d_id: 11658
+    idx: 172
+    labels:
+    - the person is walking then jump and continues to walk
+    - a man walks forward then jumps high whilst waving his arms out then continues
+      walking
+    - a person walks forward while swing their arms and jumps in the air
+    timings:
+      end: 5.7
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A5___pick_up_box_stageii.npy
+  fps: 120
+  idx: 173
+  sub_motions:
+  - hml3d_id: 11672
+    idx: 173
+    labels:
+    - a person standing straight bends the knees, reaches down with both arms, picks
+      something like a box up and stands back up straight
+    - a person grabbed something and stand up
+    - a man squats down and picks something up with both hands
+    timings:
+      end: 6.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C13___run_turn_left_135_stageii.npy
+  fps: 120
+  idx: 174
+  sub_motions:
+  - hml3d_id: 11752
+    idx: 174
+    labels:
+    - run forward pivot run backward diagnally
+    - a person runs forward, stops and runs diagonally backwards
+    - person running was turning left
+    timings:
+      end: 3.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/s001/EricCamper04_stageii.npy
+  fps: 120
+  idx: 175
+  sub_motions:
+  - hml3d_id: 11814
+    idx: 175
+    labels:
+    - person is flapping his arms like a lovely bird
+    - this person gently waves his arms out to his sides then steps right
+    - a man waves with his arms then brings his arms close to his torso and stretches
+      out his right leg
+    timings:
+      end: 10.75
+      start: 0.75
+    weight: 1.0
+  - hml3d_id: 14114
+    idx: 176
+    labels:
+    - the person is fluttering his arms and kicking is like in a dance pose
+    - a man seems to be doing a shuffle dance slowly
+    - person does a light flying movement with arms then moves as if they are practicing
+      tai chi
+    timings:
+      end: 15.1
+      start: 5.1
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E1____Jab_left_stageii.npy
+  fps: 120
+  idx: 177
+  sub_motions:
+  - hml3d_id: 11879
+    idx: 177
+    labels:
+    - a person does a short quick punching motion
+    - a person stands feet slightly a part and knees bent, holds hands in front of
+      his face and then punches quickly with his left
+    - a person punches quickly with his left hand
+    timings:
+      end: 3.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B2___walk_to_stand_stageii.npy
+  fps: 120
+  idx: 178
+  sub_motions:
+  - hml3d_id: 11977
+    idx: 178
+    labels:
+    - a person saunters forward and then stands with their legs spread apart
+    - a person walks to the right taking a diagonal path
+    timings:
+      end: 5.7
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D2___walk_to_ready_stageii.npy
+  fps: 120
+  idx: 179
+  sub_motions:
+  - hml3d_id: 12055
+    idx: 179
+    labels:
+    - a person walks forward a few steps, stops with his right foot forward, pivots
+      slightly to the left while still facing forward, bends his arms in front of
+      him, and makes a fist with both hands, as if to start boxing
+    - a person takes a few energetic steps forward, then positions themselves into
+      a fighting stance
+    - the person is looking forward and getting ready
+    timings:
+      end: 4.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A9___lie_t2_stageii.npy
+  fps: 120
+  idx: 180
+  sub_motions:
+  - hml3d_id: 12131
+    idx: 180
+    labels:
+    - the person moves their hands forward while laying down
+    - person lays on stomach with hands on floor then lays hands down
+    - a person laying down moved right leg
+    timings:
+      end: 7.9
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B23___side_step_right_stageii.npy
+  fps: 120
+  idx: 181
+  sub_motions:
+  - hml3d_id: 12199
+    idx: 181
+    labels:
+    - a person takes a big step to the right and then crossing his feet and continues
+      walking to the right
+    - a person is side stepping to the right
+    - the person carefully sidesteps right before then contiuing to sidewalk left
+      while crossing both right and left legs one after the other
+    timings:
+      end: 8.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B22____side_step_left_stageii.npy
+  fps: 120
+  idx: 182
+  sub_motions:
+  - hml3d_id: 12367
+    idx: 182
+    labels:
+    - a person side steps to their left
+    - the person is standing facing forward taking  a step to the left
+    - a person takes one big step to the left
+    timings:
+      end: 2.5
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C14___run_turn_right_90_stageii.npy
+  fps: 120
+  idx: 183
+  sub_motions:
+  - hml3d_id: 12370
+    idx: 183
+    labels:
+    - the person was running and turned right
+    - a person runs to his right
+    - a person runs forward, then turns and runs to the right
+    timings:
+      end: 3.2
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsKicks_c3d/G16___double_kick_stageii.npy
+  fps: 120
+  idx: 184
+  sub_motions:
+  - hml3d_id: 12416
+    idx: 184
+    labels:
+    - a person shuffles forward and throws a roundhouse kick with their right leg
+    - a person performing a right legged double kick
+    - this person kicks with his right leg and steps back
+    timings:
+      end: 4.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D3___run_to_ready_stageii.npy
+  fps: 120
+  idx: 185
+  sub_motions:
+  - hml3d_id: 12565
+    idx: 185
+    labels:
+    - a person jogs forward, stops and gets into a sideways fighting stance
+    - the person is running very steadily forward
+    - a person runs forward and then enters a fighting stance
+    timings:
+      end: 2.65
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C25____side_step_right_stageii.npy
+  fps: 120
+  idx: 186
+  sub_motions:
+  - hml3d_id: 12637
+    idx: 186
+    labels:
+    - a person slides from side to side 2 times then takes off running while looking
+      forward the whole time
+    - a person who is standing with his arms by his sides takes one large step to
+      his right, then continues to run in the same direction for five more strides
+    - the human steps to left, turned to the left, and started running
+    timings:
+      end: 4.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B17____Walk_to_hop_to_walk_a_stageii.npy
+  fps: 120
+  idx: 187
+  sub_motions:
+  - hml3d_id: 12653
+    idx: 187
+    labels:
+    - a person steps back to his left, takes four steps forward, hops once and continues
+      walking
+    - a person walks forward briskly, jumps, and continues to walk forward once they
+      land
+    - the man walks then hops then walks to the right
+    timings:
+      end: 5.5
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A2___Sway_t3_stageii.npy
+  fps: 120
+  idx: 188
+  sub_motions:
+  - hml3d_id: 12654
+    idx: 188
+    labels:
+    - a person is swaying from left to right and then takes one step forward
+    - this person is leaning towards his right and left
+    - the person is leaning to the right and to the left
+    timings:
+      end: 9.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A8___crouch_to_lie_stageii.npy
+  fps: 120
+  idx: 189
+  sub_motions:
+  - hml3d_id: 12700
+    idx: 189
+    labels:
+    - a person in a squatting position with hands on the ground, extends left leg
+      and the right leg outwards, getting jnto push up position
+    - the sim moves from a crouch into a lie on their front side
+    - a person crouches to lie down
+    timings:
+      end: 6.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B11____Walk_turn_left_135_stageii.npy
+  fps: 120
+  idx: 190
+  sub_motions:
+  - hml3d_id: 12730
+    idx: 190
+    labels:
+    - a person walks forward, turns to his left and walks
+    - the person is walking forward and turned left
+    - a person slowly walked forward and returned in left direction
+    timings:
+      end: 6.5
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B21_s3___put_down_box_to_walk_stageii.npy
+  fps: 120
+  idx: 191
+  sub_motions:
+  - hml3d_id: 12824
+    idx: 191
+    labels:
+    - a person put something down and slowly walked forwards in left direction
+    - a person sets something down on the ground and then walks with big hip sway
+      in a diaganol direction
+    - a man places an object on the ground to his right. then stands back up and walks
+      forward for 5 seconds
+    timings:
+      end: 10.3
+      start: 0.3
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A10___lie_to_crouch_stageii.npy
+  fps: 120
+  idx: 192
+  sub_motions:
+  - hml3d_id: 12922
+    idx: 192
+    labels:
+    - the person moved from lying down to a crouch
+    - a man gets up from a planking position into a squatting position
+    - a person lays on their stomach, then gets up into a squatted position
+    timings:
+      end: 4.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C26___run_to_crouch_stageii.npy
+  fps: 120
+  idx: 193
+  sub_motions:
+  - hml3d_id: 12965
+    idx: 193
+    labels:
+    - the sim runs down the plane before crouching down onto one knee
+    - a person runs then touches an object
+    - a person sprints forwards and then crouches
+    timings:
+      end: 2.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B21____put_down_box_to_walk_a_stageii.npy
+  fps: 120
+  idx: 194
+  sub_motions:
+  - hml3d_id: 12996
+    idx: 194
+    labels:
+    - the person put down a box and continue to walk
+    - a man bends over and sets sometimes down with both hands, then stands back up
+      and starts walking forward
+    - s figure crouches, touches teh ground, stands, then walks forward
+    timings:
+      end: 5.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B10___Walk_turn_left_45_stageii.npy
+  fps: 120
+  idx: 195
+  sub_motions:
+  - hml3d_id: 13036
+    idx: 195
+    labels:
+    - the man walks to the left
+    - a man watakes several steps forward then arcs 45 degrees to the left and takes
+      several more steps forward
+    - a person walks forward and then turns left, continuing to walk
+    timings:
+      end: 8.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C26____run_to_crouch_stageii.npy
+  fps: 120
+  idx: 196
+  sub_motions:
+  - hml3d_id: 13037
+    idx: 196
+    labels:
+    - the person is running diagonally forward
+    - a person runs forward and then lowers to crouch position
+    - the figure sprints forward a short distance before crouching down and touching
+      the ground with both hands
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Running_c3d/Run_C24___quick_side_step_left_stageii.npy
+  fps: 120
+  idx: 197
+  sub_motions:
+  - hml3d_id: 13267
+    idx: 197
+    labels:
+    - the man jumps to his left side as if he's dodging something
+    - a man leaps sideways to his left, ending in a standing position
+    - a person koved in left direction
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E1___Turn_around_right_stageii.npy
+  fps: 120
+  idx: 198
+  sub_motions:
+  - hml3d_id: 13362
+    idx: 198
+    labels:
+    - a person pivots in a clockwise motion while holding both arms up and in fists
+    - he turns around right a lot
+    - the man holds his hand up and turns in a circle to the right
+    timings:
+      end: 11.0
+      start: 1.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C18___run_to_hop_to_walk_stageii.npy
+  fps: 120
+  idx: 199
+  sub_motions:
+  - hml3d_id: 13515
+    idx: 199
+    labels:
+    - a person jogs forward then walks after a couple steps
+    - a person ran forward while jumped
+    - a person runs forward, jumps over an object, and then walks forward
+    timings:
+      end: 4.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B24____walk_to_crouch_stageii.npy
+  fps: 120
+  idx: 200
+  sub_motions:
+  - hml3d_id: 13582
+    idx: 200
+    labels:
+    - a person walks forward and then lowers to crouch position
+    - a man walks forward and then kneels down
+    - the person walks in a straight line, goes on one knee and crouches down
+    timings:
+      end: 6.15
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C21_s2____run_to_pick_up_box_stageii.npy
+  fps: 120
+  idx: 201
+  sub_motions:
+  - hml3d_id: 13613
+    idx: 201
+    labels:
+    - a person running to pick something up
+    - a person runs forward and lifts a large object from the ground and carries it
+      onward
+    - a person running, bends down picks something up and keeps running forward
+    timings:
+      end: 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E3___advance_stageii.npy
+  fps: 120
+  idx: 202
+  sub_motions:
+  - hml3d_id: 13624
+    idx: 202
+    labels:
+    - a standing person with both their arms in front of them pushes back with their
+      left foot and walking slowly with their right foot
+    - a person moving closer to something or someone in a ready to fight stance
+    - a man has both arms raised straight with his hands covering his face. and moves
+      forward
+    timings:
+      end: 6.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1Walking_c3d/Walk_B13___Walk_turn_right_45_stageii.npy
+  fps: 120
+  idx: 203
+  sub_motions:
+  - hml3d_id: 13629
+    idx: 203
+    labels:
+    - a person walking straight forward and to the right
+    - a man walks forward at a casual pace, turning to his right halfway through
+    - person walks forward before then walking diagionally
+    timings:
+      end: 9.3
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A2___Sway_stageii.npy
+  fps: 120
+  idx: 204
+  sub_motions:
+  - hml3d_id: 13686
+    idx: 204
+    labels:
+    - a standing person sways from their hips left to right in three cycles
+    - a person sways from left to right
+    - the person was standing still been leaning slightly
+    timings:
+      end: 10.95
+      start: 0.95
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E19___dodge_left_stageii.npy
+  fps: 120
+  idx: 205
+  sub_motions:
+  - hml3d_id: 13713
+    idx: 205
+    labels:
+    - a person avoids something, dodging to their right
+    - the person was driving to the right
+    - a person leans over his body with both hands in the air
+    timings:
+      end: 2.25
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A2__Sway_stageii.npy
+  fps: 120
+  idx: 206
+  sub_motions:
+  - hml3d_id: 13759
+    idx: 206
+    labels:
+    - the person is swaying back-and-forth
+    - the persoon sways from side to side several times
+    - a person sways on the spot from left to right
+    timings:
+      end: 10.3
+      start: 0.3
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B27__skip_to_walk1_stageii.npy
+  fps: 120
+  idx: 207
+  sub_motions:
+  - hml3d_id: 13928
+    idx: 207
+    labels:
+    - a person skips from right to left then walks slowly
+    - a person skips and then walks
+    - a person skips forward and to the right
+    timings:
+      end: 6.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A12_____Military_Crawl_Backwards_stageii.npy
+  fps: 120
+  idx: 208
+  sub_motions:
+  - hml3d_id: 13999
+    idx: 208
+    labels:
+    - crawl, zigzag, backward, laydown, downhill
+    - stick figure is army crawling backwards
+    timings:
+      end: 15.8
+      start: 5.8
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B14____Walk_turn_right_45_stageii.npy
+  fps: 120
+  idx: 209
+  sub_motions:
+  - hml3d_id: 14035
+    idx: 209
+    labels:
+    - a person walks to his left
+    - a person waves hand in front of his face swiftly from side to side then walks
+      off
+    - a standing person waves their left arm and then begins walking towards their
+      left
+    timings:
+      end: 4.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D9___warm_up_to_ready_to_warm_up_stageii.npy
+  fps: 120
+  idx: 210
+  sub_motions:
+  - hml3d_id: 14048
+    idx: 210
+    labels:
+    - the man is warming up
+    - a person rolls shoulders
+    - a man scrunches his shoulders, then walks forward, then scrunches his shoulders
+      some more and prepares for a fight
+    timings:
+      end: 8.7
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Walking_c3d/B20____Walk_with_box_stageii.npy
+  fps: 120
+  idx: 211
+  sub_motions:
+  - hml3d_id: 14059
+    idx: 211
+    labels:
+    - person walks holding a big box walks slightly off balance
+    - a person's walking forward quickly while holding something that they seem to
+      be balancing or positioning
+    - a person is walking forward and carrying something with both hands
+    timings:
+      end: 6.45
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E8___bounce_stageii.npy
+  fps: 120
+  idx: 212
+  sub_motions:
+  - hml3d_id: 14071
+    idx: 212
+    labels:
+    - the person is bouncing to do boxing
+    - a person was jumping forward and backward
+    - person is in fighting stance with its arms hanging waiting for something to
+      happen
+    timings:
+      end: 7.55
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E6____hook_right_stageii.npy
+  fps: 120
+  idx: 213
+  sub_motions:
+  - hml3d_id: 14074
+    idx: 213
+    labels:
+    - this person jabs with his right hand
+    - little man does a mean right hook
+    - a person is in a boxing stance and then throws a right hook
+    timings:
+      end: 2.6
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B24___walk_to_crouch_stageii.npy
+  fps: 120
+  idx: 214
+  sub_motions:
+  - hml3d_id: 14081
+    idx: 214
+    labels:
+    - a person walks forward, then squats down deeply with both arms outstretched
+      in front of the body as if picking something up
+    - a person slowly walked forward and grabbed something
+    - a person walks forward and leans over to pick something up with both hands
+    timings:
+      end: 7.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/MartialArtsWalksTurns_c3d/E5___retreat_stageii.npy
+  fps: 120
+  idx: 215
+  sub_motions:
+  - hml3d_id: 14136
+    idx: 215
+    labels:
+    - a man holding his arm up in a defensive stance with the right side of his body
+      forward, staring with his left leg the man begins to shuffle backward 4 steps
+    - the person is retreating from being hit
+    - with both hands up the individual retreats backwards
+    timings:
+      end: 7.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D4___ready_to_relax_stageii.npy
+  fps: 120
+  idx: 216
+  sub_motions:
+  - hml3d_id: 14478
+    idx: 216
+    labels:
+    - the person is getting ready to relax
+    - a person standing with hands up by chest, right  leg steps back
+    - person stands in a fighting posture then moves still to side
+    timings:
+      end: 4.1
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D11___ready_to_taunt_one_to_ready_stageii.npy
+  fps: 120
+  idx: 217
+  sub_motions:
+  - hml3d_id: 14479
+    idx: 217
+    labels:
+    - standing in a karate ready stance a person uses their right hand to taunt someone
+      into fighting
+    - a person waves something over and then gets in a fighting position
+    - a person steps forward and moves their hand to beckon something/someone and
+      then steps backwards
+    timings:
+      end: 5.4
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C15___run_turn_right_45_stageii.npy
+  fps: 120
+  idx: 218
+  sub_motions:
+  - hml3d_id: 14515
+    idx: 218
+    labels:
+    - a person who is poised to run, jogs a few steps forward, then pivots to his
+      left and jogs five more steps
+    - a person runs forward and then suddenly cuts right and keeps running
+    - a person runs forward, jukes to the right, then runs diagonally right
+    timings:
+      end: 3.15
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2Running_c3d/C3___run_stageii.npy
+  fps: 120
+  idx: 219
+  sub_motions:
+  - hml3d_id: 4786
+    idx: 219
+    labels:
+    - the person is jogging lightly
+    - a man jogs forward in a straight line
+    - the man is running straight and starts going slightly to the right
+    timings:
+      end: 2.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Running_c3d/C16____run_turn_right___135__stageii.npy
+  fps: 120
+  idx: 220
+  sub_motions:
+  - hml3d_id: 4489
+    idx: 220
+    labels:
+    - person runs a third of a circle clockwise
+    - a man runs forward than turns to the right
+    - the person is running around side to side
+    timings:
+      end: 2.35
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A7___Crouch_stageii.npy
+  fps: 120
+  idx: 221
+  sub_motions:
+  - hml3d_id: 13262
+    idx: 221
+    labels:
+    - a person squats then stands back up
+    - the person is doing a crunch down
+    - a person crouches down with their hands together
+    timings:
+      end: 6.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsStances_c3d/D9___victory_1_stageii.npy
+  fps: 120
+  idx: 222
+  sub_motions:
+  - hml3d_id: 14562
+    idx: 222
+    labels:
+    - a person spinned the handsa and bend on the knee and hit something
+    - the person windmill swings both arms in a vertical motion back and forth while
+      lunging forward, then while lunged they move their hips back to rest on their
+      back foot. at the same time swing their left hand to behind their head eith
+      the right hand still in front of their face
+    - a person frantically waves their arms around before getting into a fighting
+      position and making a punch
+    timings:
+      end: 10.95
+      start: 0.95
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/male2_Calibration_stageii.npy
+  fps: 120
+  idx: 223
+  sub_motions:
+  - hml3d_id: 7645
+    idx: 223
+    labels:
+    - a person stands in a t-pose
+    - the person is standing with his arms straight out
+    - a person is t-posing (n/a)
+    timings:
+      end: 3.0
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Female1Walking_c3d/B16___walk_turn_change_direction_stageii.npy
+  fps: 120
+  idx: 224
+  sub_motions:
+  - hml3d_id: 9049
+    idx: 224
+    labels:
+    - person is walking in a l shape
+    - a man walks forward then turns right after a short pause
+    - a person walks forward, pauses, turns right and continues walking
+    timings:
+      end: 10.25
+      start: 0.25
+    weight: 1.0
+- file: ACCAD-smpl/Female1General_c3d/A12___crawl_backwards_stageii.npy
+  fps: 120
+  idx: 225
+  sub_motions:
+  - hml3d_id: 12633
+    idx: 225
+    labels:
+    - a person is crawling slowly backwards
+    - this person does an army crawl backwards
+    - person is crawling backwards on their hands and knees
+    timings:
+      end: 18.95
+      start: 8.95
+    weight: 1.0
+- file: ACCAD-smpl/Male2General_c3d/A6__Box_lift_stageii.npy
+  fps: 120
+  idx: 226
+  sub_motions:
+  - hml3d_id: 11818
+    idx: 226
+    labels:
+    - a person raises their hands to the sky then lowers them
+    - the person is lifting a box over their head
+    - the person is stretching their arm
+    timings:
+      end: 10.15
+      start: 0.15
+    weight: 1.0
+- file: ACCAD-smpl/Male2MartialArtsPunches_c3d/E9___body_hook_left_stageii.npy
+  fps: 120
+  idx: 227
+  sub_motions:
+  - hml3d_id: 14119
+    idx: 227
+    labels:
+    - a person throws a left punch to someone's gut
+    - man stands in s defensive stance with right leg in front and left leg behind
+      and punches fast in front of him with his left arm then goes back into his stance
+    - a person hit wth a left hand
+    timings:
+      end: 2.75
+      start: 0.0
+    weight: 1.0
+- file: ACCAD-smpl/Male1General_c3d/General_A10____Lie_Down_to_Crouch_stageii.npy
+  fps: 120
+  idx: 228
+  sub_motions:
+  - hml3d_id: 3066
+    idx: 228
+    labels:
+    - a man is kneeling
+    - a figure lying on its back pulls up its legs and raises its torso, then using
+      hands and arms pushes itself to a crouching position on both feet with arms
+      resting on legs and hands relaxed between legs
+    - from a prone position on the ground, the person raises up into a squat with
+      hands held together in front of them
+    timings:
+      end: 7.55
+      start: 0.0
+    weight: 1.0

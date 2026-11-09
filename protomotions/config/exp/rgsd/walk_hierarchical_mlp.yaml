@@ -1,0 +1,86 @@
+# @package _global_
+
+defaults:
+  - /agent/rgsd/agent
+  - /env/walk_goal_reaching
+
+  - /agent/ppo/models/mlp_actor
+  - /agent/ppo/models/mlp_critic
+  - /agent/rgsd/models/mlp_phi_encoder
+  - /agent/rgsd/models/mlp_actor_latent
+
+  - /robot/smpl
+
+
+# robot:
+#   self_obs_size: 358
+
+
+env:
+  config:
+    enable_height_termination: True
+    # state_init: Default / Data / DataHybrid
+    state_init: Data
+    max_episode_length: 300
+    termination_height: 0.3  #0.15
+    head_termination_height: 0.3
+    humanoid_obs:
+      num_historical_steps: 5
+      attach_phase_variable: true
+
+    sync_motion: False
+    terminate_ref_deviation: false
+
+    # Goal reaching params
+    goal_box_min: [0.0, -10.0, 0.8]  # Min bounds for random goal sampling (x_forward, y_side, z_up)
+    goal_box_max: [10.0, 10.0, 0.8]   # Max bounds for random goal sampling
+    enable_goal_success_termination: true
+    goal_success_radius: 1.0  # Tighter success radius
+    goal_reward_scale: 1.0     # Stronger reward signal
+
+agent:
+  config:
+    num_steps: 10
+    batch_size: 10240
+    entropy_bonus_coef: 0.0
+    manual_save_every: 2000
+    
+    ssd_parameters:
+      pretrain_phi: false
+      # rgsd_on : true
+      latent_dim: 16
+      latent_init_method: 
+        default_envs: "gaussian"  # gaussian / ref_data / ref_data_random / fixed
+        ref_envs: "ref_data"  
+        latent_fixed_idx: 6
+
+    hierarchical:
+      task_reward_coeff: 1.0
+      style_reward_coeff: 1.0
+      hl_hidden: 512
+      hl_period : 8
+
+motion_manager:
+  # fixed_motion_per_env: true
+  motion_sampling_method: fixed  #random / round_robin
+  fixed_motion_id: 6
+  motion_sampling:
+      init_start_prob: 1.0 #1.
+eval_overrides:
+  agent:
+    config:
+      eval_metric_keys: []
+
+  env:
+    config:
+      eval_metric_keys: ${eval_overrides.agent.config.eval_metric_keys}
+
+  motion_manager:
+    # fixed_motion_per_env: true
+    motion_sampling_method: fixed  #random / round_robin
+    fixed_motion_id: 6
+    motion_sampling:
+        init_start_prob: 1.0 #1.
+
+
+

@@ -1,0 +1,92 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "rgsd train (basic)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/protomotions/train_agent.py",
+            "console": "integratedTerminal",
+            "python": "/home/srho31/miniconda3/envs/env_isaacgym/bin/python",
+            "env": {
+                "LD_LIBRARY_PATH": "/home/srho31/miniconda3/envs/env_isaacgym/lib:${env:LD_LIBRARY_PATH}",
+                "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/protomotions:${workspaceFolder}/isaac_utils:${workspaceFolder}/poselib:${env:PYTHONPATH}"
+            },
+            "args": ["+exp=rgsd/four_motions_mlp", "+motion_file=data/yaml_files/all.yaml",
+            "+robot=smpl", "+simulator=isaacgym", "+experiment_name=rgsd_basic"]
+        },
+        {
+            "name": "rgsd train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/protomotions/train_agent.py",
+            "console": "integratedTerminal",
+            "python": "/home/srho31/miniconda3/envs/env_isaacgym/bin/python",
+            "env": {
+                "LD_LIBRARY_PATH": "/home/srho31/miniconda3/envs/env_isaacgym/lib:${env:LD_LIBRARY_PATH}",
+                "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/protomotions:${workspaceFolder}/isaac_utils:${workspaceFolder}/poselib:${env:PYTHONPATH}"
+            },
+            // "envFile": "/home/srho31/miniconda3/envs/env_isaaclab2/bin/python",
+            "args": ["+exp=rgsd/four_motions_mlp", "+motion_file=data/yaml_files/all.yaml", 
+            "+robot=smpl", "+simulator=isaacgym", "+experiment_name=ssd_accad_test_2048", 
+            "++env.config.state_init=DataHybrid", "++env.config.hybrid_init_prob=0.7",      
+            "++num_envs=1024", "++agent.config.vmf_kappa=10.0", 
+            "++agent.config.ssd_parameters.latent_init_method.ref_envs=ref_data",
+            "++seed=1" ]
+        },
+        {
+            "name": "rgsd play",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/protomotions/eval_agent.py",
+            "console": "integratedTerminal",
+            "args": ["+exp=rgsd/four_motions_mlp", "+headless=True", 
+            "+motion_file=data/yaml_files/synthetic_fid_eval.yaml", 
+            // "+motion_file=data/yaml_files/all.yaml", 
+            "+robot=smpl", 
+            "+simulator=isaacgym",
+            "+checkpoint=results/rgsd_ang_fix_punch30/lightning_logs/version_0/model_21000.ckpt",
+            // "+checkpoint=results/rgsd_ang_fix_punch28/lightning_logs/version_0/model_21000.ckpt",
+            // "+checkpoint=results/rgsd_discoverratio_70/lightning_logs/version_0/model_21000.ckpt",
+            "+load_checkpoint=True", "+terrain=flat",
+            "++num_envs=150"]
+        },
+        {
+            "name": "highlevel train walk",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/protomotions/train_agent.py",
+            "console": "integratedTerminal",
+            // "envFile": "/home/srho31/miniconda3/envs/env_isaaclab2/bin/python",
+            "args": ["+exp=rgsd/side_hierarchical_mlp", "+motion_file=data/yaml_files/all.yaml", 
+            "+robot=smpl", "+simulator=isaacgym", "+experiment_name=hl_walk_test", 
+            "++num_envs=8192", 
+            "+env=walk_goal_reaching", 
+            "++agent._target_=protomotions.agents.rgsd.hierarchical_agent_mixin.RGSD_Hierarchical",  
+            // "++checkpoint=results/rgsd_discoverratio_70/lightning_logs/version_0/model_27000.ckpt", 
+            "++checkpoint=results/rgsd_ang_fix_punch30/lightning_logs/version_0/model_21000.ckpt", 
+            "++load_checkpoint=True", "+agent.config.load_only_model=True", 
+            "+agent.config.reset_epoch_on_load=True", 
+            "+opt=wandb",
+            "++agent.config.hierarchical.task_reward_coeff=2.0"]
+        },
+        {
+            "name": "highlevel play rgsd",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/protomotions/eval_agent.py",
+            "console": "integratedTerminal",
+            // "envFile": "/home/srho31/miniconda3/envs/env_isaaclab2/bin/python",
+            "args": ["+exp=rgsd/backward_hierarchical_mlp", "+headless=True",  
+            "+motion_file=data/yaml_files/synthetic_fid_eval.yaml", 
+            "+robot=smpl", "+simulator=isaacgym", 
+            "++checkpoint=results/rgsd_high_back_8exp_task10/lightning_logs/version_0/model_6000.ckpt", 
+            "++load_checkpoint=True",
+            "++num_envs=500", 
+            "++agent._target_=protomotions.agents.rgsd.hierarchical_agent_mixin.RGSD_Hierarchical"]
+        }
+    ]
+}
